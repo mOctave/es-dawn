@@ -84,7 +84,7 @@ mission "Dawn Intro 2"
 		personality
 			confusion 15
 			waiting staying target marked disables
-		ship "Heavy Shuttle⭐️" "T073" 
+		ship "Heavy Shuttle (*)" "T073" 
 	to offer
 		has "Dawn Intro 1: done"
 	on offer

@@ -10,7 +10,7 @@ start "dawn"
 	account
 		credits 25000
 		score 600
-	ship "Scout⭐️"
+	ship "Scout (*)"
 		name "Gleam of Sirius"
 		sprite "ship/scout"
 		thumbnail "thumbnail/scout"
@@ -35,24 +35,24 @@ start "dawn"
 				"hull damage" 80
 				"hit force" 240
 		outfits
-			"Energy Blaster⭐️" 2
-			"Anti-Missile Turret⭐️"
+			"Energy Blaster (*)" 2
+			"Anti-Missile Turret (*)"
 
-			"nGVF-CC Fuel Cell⭐️"
-			"LP036a Battery Pack⭐️"
-			"D14-RN Shield Generator⭐️"
-			"Small Radar Jammer⭐️"
-			"Ramscoop⭐️"
+			"nGVF-CC Fuel Cell (*)"
+			"LP036a Battery Pack (*)"
+			"D14-RN Shield Generator (*)"
+			"Small Radar Jammer (*)"
+			"Ramscoop (*)"
 		
-			"X3700 Ion Thruster⭐️"
-			"X3200 Ion Steering⭐️"
-			"Hyperdrive⭐️"
+			"X3700 Ion Thruster (*)"
+			"X3200 Ion Steering (*)"
+			"Hyperdrive (*)"
 		
 		engine -8 46
 		engine 8 46
-		gun -20 -7 "Energy Blaster⭐️"
-		gun 20 -7 "Energy Blaster⭐️"
-		turret 0 -7 "Anti-Missile Turret⭐️"
+		gun -20 -7 "Energy Blaster (*)"
+		gun 20 -7 "Energy Blaster (*)"
+		turret 0 -7 "Anti-Missile Turret (*)"
 		explode "tiny explosion" 10
 		explode "small explosion" 20
 		explode "medium explosion" 15

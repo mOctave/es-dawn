@@ -140,44 +140,44 @@
 # AR120 Reverse Thruster - Alpha Wars
 
 outfitter "Military"
-	"Heavy Laser⭐️"
-	"Energy Blaster⭐️"
-	"Heavy Laser Turret⭐️"
-	"Quad Blaster Turret⭐️"
-	"Javelin⭐️"
-	"Meteor Missile⭐️"
-	"Sidewinder Missile⭐️"
-	"Torpedo⭐️"
-	"Meteor Missile Launcher⭐️"
-	"Torpedo Launcher⭐️"
-	"D14-RN Shield Generator⭐️"
-	"D23-QP Shield Generator⭐️"
-	"D41-HY Shield Generator⭐️"
-	"Laser Rifle⭐️"
-	"Fragmentation Grenades⭐️"
-	"Security Station⭐️"
-	"Surveillance Pod⭐️"
-	"Tactical Scanner⭐️"
-	"Ramscoop⭐️"
-	"Valour Plasma Thruster⭐️"
-	"Valour Plasma Steering⭐️"
-	"Terran Union License⭐️"
+	"Heavy Laser (*)"
+	"Energy Blaster (*)"
+	"Heavy Laser Turret (*)"
+	"Quad Blaster Turret (*)"
+	"Javelin (*)"
+	"Meteor Missile (*)"
+	"Sidewinder Missile (*)"
+	"Torpedo (*)"
+	"Meteor Missile Launcher (*)"
+	"Torpedo Launcher (*)"
+	"D14-RN Shield Generator (*)"
+	"D23-QP Shield Generator (*)"
+	"D41-HY Shield Generator (*)"
+	"Laser Rifle (*)"
+	"Fragmentation Grenades (*)"
+	"Security Station (*)"
+	"Surveillance Pod (*)"
+	"Tactical Scanner (*)"
+	"Ramscoop (*)"
+	"Valour Plasma Thruster (*)"
+	"Valour Plasma Steering (*)"
+	"Terran Union License (*)"
 
-outfit "Terran Union License⭐️"
+outfit "Terran Union License (*)"
 	category "Special"
 	cost 2800000
 	thumbnail "license-TUn"
 	description "The Terran Union License is a way of restricting the sale of powerful naval warships like the Frigate to trustworthy individuals. Although you can buy one instead of meeting the other qualifications, the price of a Terran Union License is so great that most people opt for alternatives to the Frigate instead."
 
-outfit "Deep Federation City-Ship License⭐️"
+outfit "Deep Federation City-Ship License (*)"
 	category "Special"
 	thumbnail "license-DFCS"
-	description "The Deep Federation carefully controls the purchase of large city ships like the Bactrian, lest one of them fall into the hands of pirates.⭐️"
+	description "The Deep Federation carefully controls the purchase of large city ships like the Bactrian, lest one of them fall into the hands of pirates. (*)"
 
 
 # Slightly modified outfits...
 
-outfit "Beam Laser⭐️"
+outfit "Beam Laser (*)"
 	category "Guns"
 	cost 29000
 	thumbnail "outfit/laser"
@@ -200,7 +200,7 @@ outfit "Beam Laser⭐️"
 		"hull damage" 1.3
 	description "Beam weapons are very common in the Deep, although they are not used much elsewhere. This difference is caused by the fact that the Deep was originally considerably separated from the rest of human space."
 
-outfit "Heavy Laser⭐️"
+outfit "Heavy Laser (*)"
 	category "Guns"
 	cost 60000
 	thumbnail "outfit/heavy laser"
@@ -223,7 +223,7 @@ outfit "Heavy Laser⭐️"
 		"hull damage" 2.4
 	description "The Heavy Laser is an upgraded Beam Laser with a significantly longer range and higher power. It is mostly intended for larger ships, where energy and space are plentiful, but some pilots consider a single Heavy Laser to be a worthwhile alternative to a pair of Beam Lasers, because the longer range makes up for the fact that it does not quite deal twice as much damage."
 
-outfit "Energy Blaster⭐️"
+outfit "Energy Blaster (*)"
 	category "Guns"
 	cost 16000
 	thumbnail "outfit/blaster"
@@ -245,7 +245,7 @@ outfit "Energy Blaster⭐️"
 		"hull damage" 6
 	description "Although not the most accurate or damaging of weapons, the Energy Blaster has been in service for over two hundred years and shows no sign of losing its popularity. One blaster is not enough to do appreciable damage to anything larger than a fighter, but a ship equipped with several of them becomes a force to be reckoned with."
 
-outfit "Particle Cannon⭐️"
+outfit "Particle Cannon (*)"
 	category "Guns"
 	cost 220000
 	thumbnail "outfit/particle cannon"
@@ -269,7 +269,7 @@ outfit "Particle Cannon⭐️"
 		"hull damage" 52
 	description "The Particle Cannon works by accelerating a short burst of particles to near-relativistic speeds. When mounted on a ship that can turn fast enough to keep it trained on approaching ships, it becomes a nearly unbeatable weapon, capable of destroying smaller ships before they can even approach close enough for their comparatively short-ranged weapons to be effective."
 
-outfit "Laser Turret⭐️"
+outfit "Laser Turret (*)"
 	category "Turrets"
 	cost 140000
 	thumbnail "outfit/laser turret"
@@ -297,7 +297,7 @@ outfit "Laser Turret⭐️"
 	description "Laser Turrets are hated by fighter pilots because it is nearly impossible to dodge them once you are within their reach. This turret carries a pair of lasers and can swivel almost instantly to fire on new targets as they approach. Laser Turrets are especially useful when mounted on slow-moving freighters to fend off packs of small pirate vessels."
 
 
-outfit "Heavy Laser Turret⭐️"
+outfit "Heavy Laser Turret (*)"
 	category "Turrets"
 	cost 320000
 	thumbnail "outfit/heavy laser turret"
@@ -324,7 +324,7 @@ outfit "Heavy Laser Turret⭐️"
 		"hull damage" 4.8
 	description "For ships with enough space to install one, the Heavy Laser Turret is a powerful weapon, equally useful for driving off fighters and for bombarding larger targets with continuous fire without having to worry about pointing your ship in the right direction."
 
-outfit "Blaster Turret⭐️"
+outfit "Blaster Turret (*)"
 	category "Turrets"
 	cost 100000
 	thumbnail "outfit/blaster turret"
@@ -350,7 +350,7 @@ outfit "Blaster Turret⭐️"
 		"hull damage" 6
 	description "A Blaster Turret is a pair of Energy Blasters mounted on a rotating platform, allowing it to fire in any direction. Modern software allows the turret to correct for a target's motion, making the Blaster Turret effective even against small, quickly moving fighters. Because it needs a special mounting point with a 360 degree field of view, not all ships are capable of being equipped with a turret."
 
-outfit "Quad Blaster Turret⭐️"
+outfit "Quad Blaster Turret (*)"
 	category "Turrets"
 	cost 230000
 	thumbnail "outfit/quad blaster turret"
@@ -376,7 +376,7 @@ outfit "Quad Blaster Turret⭐️"
 		"hull damage" 6
 	description "A Quad Blaster Turret carries four guns on a single turret mount, doubling the firepower of an ordinary Blaster Turret for ships with enough space to install one and energy to drive it. The Quad Blaster Turret is a relatively new invention that is quite popular among the captains of heavy freighters due to its superior firepower."
 
-outfit "Anti-Missile Turret⭐️"
+outfit "Anti-Missile Turret (*)"
 	category "Turrets"
 	cost 60000
 	thumbnail "outfit/anti-missile"
@@ -396,7 +396,7 @@ outfit "Anti-Missile Turret⭐️"
 		"firing heat" 3
 	description "As the number of missiles used in space cobat increases, the government of Betelgeuse has finally designed an effective anti-missile system. Some missiles may get past, but many more can be blocked by the new anti-missile turret."
 
-outfit "Heavy Anti-Missile Turret⭐️"
+outfit "Heavy Anti-Missile Turret (*)"
 	category "Turrets"
 	cost 150000
 	thumbnail "outfit/heavy anti-missile"
@@ -416,7 +416,7 @@ outfit "Heavy Anti-Missile Turret⭐️"
 		"firing heat" 5
 	description "At the same time that Betelgeuse was developing an anit-missile turret, the Deep was, too. The Heavy Anti-Missile turret has a longer range, higher power, and shorter reload time than its smaller counterpart. Unfortunately, it also requires more space and energy."
 
-outfit "Javelin⭐️"
+outfit "Javelin (*)"
 	category "Ammunition"
 	cost 50
 	thumbnail "outfit/javelin"
@@ -424,7 +424,7 @@ outfit "Javelin⭐️"
 	"javelin capacity" -1
 	description "A Javelin missile is ammunition for the Javelin Pod; without a Pod to store them in you cannot purchase or use Javelins. Each pod stores up to 180 Javelins."
 
-outfit "Javelin Storage Crate⭐️"
+outfit "Javelin Storage Crate (*)"
 	category "Ammunition"
 	cost 5000
 	thumbnail "outfit/javelin storage"
@@ -434,7 +434,7 @@ outfit "Javelin Storage Crate⭐️"
 	ammo "Javelin"
 	description "The Javelin Storage Crate is used to store extra ammunition for Javelin Pods."
 
-outfit "Javelin Pod⭐️"
+outfit "Javelin Pod (*)"
 	category "Secondary Weapons"
 	cost 20000
 	thumbnail "outfit/javelin pod"
@@ -446,7 +446,7 @@ outfit "Javelin Pod⭐️"
 	weapon
 		sprite "projectile/javelin"
 		sound "javelin"
-		ammo "Javelin⭐️"
+		ammo "Javelin (*)"
 		icon "icon/javelin"
 		"hit effect" "tiny explosion"
 		"inaccuracy" 1
@@ -463,7 +463,7 @@ outfit "Javelin Pod⭐️"
 	description "	The weapon's high rate of fire also makes it useful for saturating well-protected ships' anti-missile defenses so that more dangerous projectiles fired by allied ships can sneak through."
 
 
-outfit "Meteor Missile⭐️"
+outfit "Meteor Missile (*)"
 	category "Ammunition"
 	cost 500
 	thumbnail "outfit/meteor"
@@ -471,7 +471,7 @@ outfit "Meteor Missile⭐️"
 	"meteor capacity" -1
 	description "A Meteor Missile serves as ammunition for the Meteor Missile Launcher. Each missile launcher has the capacity for 24 missiles; you cannot install missiles if you have not first purchased a launcher to store them in."
 
-outfit "Meteor Missile Box⭐️"
+outfit "Meteor Missile Box (*)"
 	plural "Meteor Missile Boxes"
 	category "Ammunition"
 	cost 9000
@@ -482,7 +482,7 @@ outfit "Meteor Missile Box⭐️"
 	ammo "Meteor Missile"
 	description "The Meteor Missile Box is used to store extra ammunition for Meteor Missile Launchers."
 	
-outfit "Meteor Missile Launcher⭐️"
+outfit "Meteor Missile Launcher (*)"
 	category "Secondary Weapons"
 	cost 15000
 	thumbnail "outfit/meteor launcher"
@@ -496,7 +496,7 @@ outfit "Meteor Missile Launcher⭐️"
 			"no repeat"
 			"frame rate" .25
 		sound "meteor"
-		ammo "Meteor Missile⭐️"
+		ammo "Meteor Missile (*)"
 		icon "icon/meteor"
 		"fire effect" "meteor fire"
 		"die effect" "missile death"
@@ -518,7 +518,7 @@ outfit "Meteor Missile Launcher⭐️"
 		"missile strength" 6
 	description "The Meteor Missile is the cheapest and simplest homing weapon available in human space. Meteors are quickly destroyed by the new government-funded anti-missile systems, and their infrared tracking systems have trouble homing in on targets with low heat levels. Nevertheless, their large warheads can spell doom for poorly-defended targets when the missiles are fired in great numbers."
 
-outfit "Sidewinder Missile⭐️"
+outfit "Sidewinder Missile (*)"
 	category "Ammunition"
 	cost 900
 	thumbnail "outfit/sidewinder"
@@ -526,7 +526,7 @@ outfit "Sidewinder Missile⭐️"
 	"sidewinder capacity" -1
 	description "The Sidewinder Missile is ammunition for the Sidewinder Missile Launcher; each launcher that you have installed can be armed with up to 40 of them. You cannot install a missile without a launcher to fire it from."
 
-outfit "Sidewinder Missile Rack⭐️"
+outfit "Sidewinder Missile Rack (*)"
 	category "Ammunition"
 	cost 20000
 	thumbnail "outfit/sidewinder storage"
@@ -536,7 +536,7 @@ outfit "Sidewinder Missile Rack⭐️"
 	ammo "Sidewinder Missile"
 	description "The Sidewinder Missile Rack is used to store extra ammunition for Sidewinder Missile Launchers."
 
-outfit "Sidewinder Missile Launcher⭐️"
+outfit "Sidewinder Missile Launcher (*)"
 	category "Secondary Weapons"
 	cost 60000
 	thumbnail "outfit/sidewinder launcher"
@@ -550,7 +550,7 @@ outfit "Sidewinder Missile Launcher⭐️"
 			"no repeat"
 			"frame rate" .25
 		sound "sidewinder"
-		ammo "Sidewinder Missile⭐️"
+		ammo "Sidewinder Missile (*)"
 		icon "icon/sidewinder"
 		"fire effect" "sidewinder fire"
 		"die effect" "missile death"
@@ -573,7 +573,7 @@ outfit "Sidewinder Missile Launcher⭐️"
 	description "The Sidewinder Missile is a brand-new experimental model by a company who also worked on Betelgeuse's anti-missile defenses."
 	description "	Although not as powerful or cheap as the popular Meteor missiles, the new Sidewinders have several advantages, including their superior maneuverability, better tracking systems, and protective casings that make them much harder for anti-missile systems to destroy."
 
-outfit "Torpedo⭐️"
+outfit "Torpedo (*)"
 	plural "Torpedoes"
 	category "Ammunition"
 	cost 1400
@@ -582,7 +582,7 @@ outfit "Torpedo⭐️"
 	"torpedo capacity" -1
 	description "Torpedoes are ammunition for the Torpedo Launcher. Each Torpedo Launcher can hold 18 of them. You cannot install torpedoes unless you have also installed a launcher to fire them from."
 
-outfit "Torpedo Storage Rack⭐️"
+outfit "Torpedo Storage Rack (*)"
 	category "Ammunition"
 	cost 21000
 	thumbnail "outfit/torpedo storage"
@@ -592,7 +592,7 @@ outfit "Torpedo Storage Rack⭐️"
 	ammo "Torpedo"
 	description "The Torpedo Storage Rack is used to store extra ammunition for Torpedo Launchers."
 
-outfit "Torpedo Launcher⭐️"
+outfit "Torpedo Launcher (*)"
 	category "Secondary Weapons"
 	cost 80000
 	thumbnail "outfit/torpedo launcher"
@@ -606,7 +606,7 @@ outfit "Torpedo Launcher⭐️"
 			"frame rate" 2
 			"random start frame"
 		sound "torpedo"
-		ammo "Torpedo⭐️"
+		ammo "Torpedo (*)"
 		icon "icon/torpedo"
 		"fire effect" "torpedo fire"
 		"hit effect" "torpedo hit"
@@ -628,7 +628,7 @@ outfit "Torpedo Launcher⭐️"
 		"missile strength" 30
 	description "Torpedoes are by far the heaviest missile in human space, but many ships can simply outrun them, making them most useful against large targets or against small ships at times when they are too distracted to dodge. Torpedo launchers are also much larger than other missile systems, so they are most often found in capital ships."
 
-outfit "KP-6 Photovoltaic Panel⭐️"
+outfit "KP-6 Photovoltaic Panel (*)"
 	category "Power"
 	cost 7000
 	thumbnail "outfit/tiny photovoltaic"
@@ -637,7 +637,7 @@ outfit "KP-6 Photovoltaic Panel⭐️"
 	"solar collection" .1
 	description "This early commercial photovoltaic system was the driving force behind humanity's first interplanetary trade network. Rugged and modular, it can be bolted to the hull of any ship and has seen even the most remote parts of human space."
 
-outfit "KP-6 Photovoltaic Array⭐️"
+outfit "KP-6 Photovoltaic Array (*)"
 	category "Power"
 	cost 60000
 	thumbnail "outfit/small photovoltaic"
@@ -646,7 +646,7 @@ outfit "KP-6 Photovoltaic Array⭐️"
 	"solar collection" 1.1
 	description "The compact modularity of the KP-6 lent itself well to the creation of larger solar collection arrays. This model is also equipped with a solar tracker, allowing it to make better use of available light."
 
-outfit "nGVF-AA Fuel Cell⭐️"
+outfit "nGVF-AA Fuel Cell (*)"
 	category "Power"
 	cost 40000
 	thumbnail "outfit/tiny fuel cell"
@@ -656,7 +656,7 @@ outfit "nGVF-AA Fuel Cell⭐️"
 	"heat generation" 1.9
 	description "Fuel cells have always been very cheap and common power sources for space travel. This model produces only enough power for very small or slow ships."
 
-outfit "nGVF-BB Fuel Cell⭐️"
+outfit "nGVF-BB Fuel Cell (*)"
 	category "Power"
 	cost 47000
 	thumbnail "outfit/small fuel cell"
@@ -666,7 +666,7 @@ outfit "nGVF-BB Fuel Cell⭐️"
 	"heat generation" 2.9
 	description "This is a step up from the smallest fuel cells, providing enough energy to power a few small guns in addition to your engines."
 
-outfit "nGVF-CC Fuel Cell⭐️"
+outfit "nGVF-CC Fuel Cell (*)"
 	category "Power"
 	cost 72000
 	thumbnail "outfit/medium fuel cell"
@@ -676,7 +676,7 @@ outfit "nGVF-CC Fuel Cell⭐️"
 	"heat generation" 3.8
 	description "This is a medium-sized fuel cell, designed to be sufficient for larger civilian ships and small warships while still being more affordable than the more sophisticated generator options."
 
-outfit "nGVF-DD Fuel Cell⭐️"
+outfit "nGVF-DD Fuel Cell (*)"
 	category "Power"
 	cost 118000
 	thumbnail "outfit/large fuel cell"
@@ -687,7 +687,7 @@ outfit "nGVF-DD Fuel Cell⭐️"
 	description "This is a large fuel cell. Other generators are available that produce more energy and fit into a smaller space, but this model of fuel cell is still the largest available."
 
 
-outfit "RT-I Radiothermal⭐️"
+outfit "RT-I Radiothermal (*)"
 	category "Power"
 	cost 300000
 	thumbnail "outfit/small radiothermal"
@@ -697,7 +697,7 @@ outfit "RT-I Radiothermal⭐️"
 	"heat generation" 18
 	description "Radiothermal generators harvest heat from radioactive isotopes and convert it into electricity. They are more powerful than fuel cells, but also produce a relatively high amount of heat, and cost quite a bit more."
 
-outfit "S3 Thermionic⭐️"
+outfit "S3 Thermionic (*)"
 	category "Power"
 	cost 380000
 	thumbnail "outfit/small thermionic"
@@ -707,7 +707,7 @@ outfit "S3 Thermionic⭐️"
 	"heat generation" 14
 	description "Thermionic radioisotopic generators were designed as a cooler-running alternative to radiothermal generators. They are a fairly new technology, and so are often less efficient than they should ideally be."
 
-outfit "Dwarf Core⭐️"
+outfit "Dwarf Core (*)"
 	category "Power"
 	cost 1400000
 	thumbnail "outfit/dwarf core"
@@ -717,7 +717,7 @@ outfit "Dwarf Core⭐️"
 	"heat generation" 14
 	description "A Dwarf Core is a miniaturized nuclear reactor, small enough to be installed in any ship larger than a fighter. It is a small nuclear reactor designed to run power-intensive systems, but it is not used much due to its considerable price tag."
 
-outfit "Fission Reactor⭐️"
+outfit "Fission Reactor (*)"
 	category "Power"
 	cost 1700000
 	thumbnail "outfit/fission"
@@ -727,7 +727,7 @@ outfit "Fission Reactor⭐️"
 	"heat generation" 30
 	description `Fission reactors have been a mainstay of large military vessels since even before the dawn of the space era. Today's models almost never suffer from meltdowns, but many pilots refuse to go anywhere near them because the keyword is "almost."`
 
-outfit "Breeder Reactor⭐️"
+outfit "Breeder Reactor (*)"
 	category "Power"
 	cost 2500000
 	thumbnail "outfit/breeder"
@@ -737,7 +737,7 @@ outfit "Breeder Reactor⭐️"
 	"heat generation" 40
 	description "A breeder reactor is a brand new, more efficient fission reactor that captures some of the neutron radiation produced by the reactor and uses it to enrich more fuel. They are also, of course, bigger and more expensive as a result, as well as being slightly more dangerous."
 
-outfit "Supercapacitor⭐️"
+outfit "Supercapacitor (*)"
 	category "Power"
 	cost 28000
 	thumbnail "outfit/supercapacitor"
@@ -746,7 +746,7 @@ outfit "Supercapacitor⭐️"
 	"energy capacity" 150
 	description "With a powerful enough generator, many ships do not need batteries at all. The one exception is projectile weapons, which usually require a burst of energy far exceeding what the generator produces. Supercapacitors provide just enough energy storage for those weapons, without requiring you to install a bulky battery pack."
 
-outfit "LP036a Battery Pack⭐️"
+outfit "LP036a Battery Pack (*)"
 	category "Power"
 	cost 14000
 	thumbnail "outfit/tiny battery"
@@ -755,7 +755,7 @@ outfit "LP036a Battery Pack⭐️"
 	"energy capacity" 1000
 	description "A ship can run without batteries if its generator's instantaneous power output is higher than the total energy consumption of its systems, but batteries make it possible to store up energy when it is not needed and thus to use a much smaller and cheaper generator."
 
-outfit "LP072a Battery Pack⭐️"
+outfit "LP072a Battery Pack (*)"
 	category "Power"
 	cost 34000
 	thumbnail "outfit/small battery"
@@ -765,7 +765,7 @@ outfit "LP072a Battery Pack⭐️"
 	description "This battery pack has more than twice the energy capacity of the most basic model, allowing your ship to engage in combat for longer periods of time before running out of energy. Some pilots have even been known to install these in lieu of any generator at all, trusting that they can reach their destination planet and recharge before running out of battery power, but that is a risky proposition."
 
 
-outfit "LP144a Battery Pack⭐️"
+outfit "LP144a Battery Pack (*)"
 	category "Power"
 	cost 73000
 	thumbnail "outfit/medium battery"
@@ -774,7 +774,7 @@ outfit "LP144a Battery Pack⭐️"
 	"energy capacity" 4800
 	description "This medium-sized battery pack is intended for ships that need to fire the occasional salvo of high-powered weaponry without running out of energy. As with all battery packs, relying on batteries is risky if combat lasts long enough for them to become depleted."
 
-outfit "LP288a Battery Pack⭐️"
+outfit "LP288a Battery Pack (*)"
 	category "Power"
 	cost 158000
 	thumbnail "outfit/large battery"
@@ -783,7 +783,7 @@ outfit "LP288a Battery Pack⭐️"
 	"energy capacity" 10400
 	description "This is a large battery pack designed for ships that may occasionally have high power needs but do not want the expense or the heat associated with a more powerful ship's generator, or already have a very powerful generator installed and do not have space for another."
 
-outfit "D14-RN Shield Generator⭐️"
+outfit "D14-RN Shield Generator (*)"
 	category "Systems"
 	cost 25000
 	thumbnail "outfit/tiny shield"
@@ -793,7 +793,7 @@ outfit "D14-RN Shield Generator⭐️"
 	"shield energy" .2
 	description "This is the standard shield generator for fighters and interceptors, as well as for many non-combat starships. Although it is possible for a ship to have no shield generator at all, recharging its shield matrix only when landed in a hospitable spaceport, life in deep space is unpredictable enough that most pilots find shield generators to be well worth the space they take up."
 
-outfit "D23-QP Shield Generator⭐️"
+outfit "D23-QP Shield Generator (*)"
 	category "Systems"
 	cost 41000
 	thumbnail "outfit/small shield"
@@ -803,7 +803,7 @@ outfit "D23-QP Shield Generator⭐️"
 	"shield energy" .32
 	description "This is a slightly more powerful shield generator than the standard model installed in most small ships, made possible only by recent advances in shielding technology."
 
-outfit "D41-HY Shield Generator⭐️"
+outfit "D41-HY Shield Generator (*)"
 	category "Systems"
 	cost 72000
 	thumbnail "outfit/medium shield"
@@ -814,7 +814,7 @@ outfit "D41-HY Shield Generator⭐️"
 	description "This is a more powerful shield generator designed for ships that are likely to see frequent combat, or that have such a large shield capacity that recharging them would take a long time with a smaller generator. It is the largest shield generator currently available, although the Deep has plans for even bigger, fancier generators."
 
 
-outfit "Cooling Ducts⭐️"
+outfit "Cooling Ducts (*)"
 	plural "Cooling Ducts"
 	category "Systems"
 	cost 10000
@@ -824,7 +824,7 @@ outfit "Cooling Ducts⭐️"
 	"cooling" 6
 	description "When trying to cram as many high-powered outfits as possible into a ship, occasionally you reach the point where it is sporadically overheating and shutting down. In that case, you may need to install one of these."
 
-outfit "Water Coolant System⭐️"
+outfit "Water Coolant System (*)"
 	category "Systems"
 	cost 25000
 	thumbnail "outfit/water cooling"
@@ -833,7 +833,7 @@ outfit "Water Coolant System⭐️"
 	"cooling" 14
 	description "This system is a step up from ordinary cooling ducts; it circulates water in between an external radiator and your ship's hottest internal components to keep them from overheating."
 
-outfit "Local Map⭐️"
+outfit "Local Map (*)"
 	category "Special"
 	cost 500
 	thumbnail "outfit/map"
@@ -841,7 +841,7 @@ outfit "Local Map⭐️"
 	description "This data chip contains complete information on the twenty star systems closest to this one: planets, ports, governments, trade prices, available services, etc. You can get all the same information just by exploring those systems yourself, but having a map can save you from making wrong turns if you are trying to travel through new territory to reach a certain system quickly."
 	description "Because you work for the Terran Union, you get discounted rates on more powerful mapping products than most people could ever dream of."
 
-outfit "Bunk Room⭐️"
+outfit "Bunk Room (*)"
 	category "Systems"
 	cost 40000
 	thumbnail "outfit/bunk room"
@@ -851,7 +851,7 @@ outfit "Bunk Room⭐️"
 	"unplunderable" 1
 	description "If you really want to make space for a few more passengers (or crew members, if you're trying to capture other ships), you can expand the living space of your ship into the area usually reserved for outfits."
 
-outfit "Small Bunk Room⭐️"
+outfit "Small Bunk Room (*)"
 	category "Systems"
 	cost 20000
 	thumbnail "outfit/small bunk room"
@@ -861,7 +861,7 @@ outfit "Small Bunk Room⭐️"
 	"unplunderable" 1
 	description "Captains who do not care particularly much about the comfort of their passengers or crew can usually find a way to shove a bunk bed in behind the power generator or to hang a few hammocks from the engines as a makeshift way to make space for more people."
 
-outfit "Brig⭐️"
+outfit "Brig (*)"
 	category "Systems"
 	cost 40000
 	thumbnail "outfit/brig"
@@ -870,7 +870,7 @@ outfit "Brig⭐️"
 	"unplunderable" 1
 	description "With the addition of some reinforced doors, locks, and security systems, any ship's passenger compartment can be turned into a brig. This makes it suitable for transporting criminals and prisoners, or participating in the highly illegal galactic slave trade. These cells are often found on ships owned by bounty hunters, pirates, and of course, the Republic's interstellar law enforcement."
 
-outfit "Luxury Accommodations⭐️"
+outfit "Luxury Accommodations (*)"
 	category "Systems"
 	cost 250000
 	thumbnail "outfit/luxury accommodations"
@@ -880,7 +880,7 @@ outfit "Luxury Accommodations⭐️"
 	"unplunderable" 1
 	description "Most deep space voyages involve a certain amount of passenger discomfort. With the addition of a few extra fresh water tanks, private bathrooms, wooden fixtures, and some hospitality staff, any ship can be made attractive to a significantly higher - and better paying - class of passenger."
 
-outfit "Outfits Expansion⭐️"
+outfit "Outfits Expansion (*)"
 	category "Systems"
 	cost 45000
 	thumbnail "outfit/outfit expansion"
@@ -893,7 +893,7 @@ outfit "Outfits Expansion⭐️"
 	description "This expansion allows you to sacrifice some cargo space in order to make room for more outfits, in situations where you need just a bit more space to install a particular system. It does not increase your weapon or engine space."
 	description "	Unfortunately, rearranging the interior of your ship in such a fundamental way tends to interfere with its cooling systems."
 
-outfit "Cargo Expansion⭐️"
+outfit "Cargo Expansion (*)"
 	category "Systems"
 	cost 25000
 	thumbnail "outfit/cargo expansion"
@@ -903,7 +903,7 @@ outfit "Cargo Expansion⭐️"
 	"unplunderable" 1
 	description "If being able to carry more cargo is more important to you than having advanced weapons or other systems, a cargo expansion will significantly increase the size of your cargo hold."
 
-outfit "Cargo Scanner⭐️"
+outfit "Cargo Scanner (*)"
 	category "Systems"
 	cost 10000
 	thumbnail "outfit/cargo scanner"
@@ -913,7 +913,7 @@ outfit "Cargo Scanner⭐️"
 	"cargo scan speed" 1
 	description "This scanner allows you to scan the cargo holds of the ship you are currently targeting, as long as you are flying close enough to it. Patrol craft use cargo scanners to detect illegal contraband. Installing more than one increases the scan range and speed."
 
-outfit "Outfit Scanner⭐️"
+outfit "Outfit Scanner (*)"
 	category "Systems"
 	cost 30000
 	thumbnail "outfit/outfit scanner"
@@ -923,7 +923,7 @@ outfit "Outfit Scanner⭐️"
 	"outfit scan speed" 1
 	description "This scanner allows you to determine what outfits are installed in the ship you are currently targeting, if you are willing to risk flying close enough to it to get a reading! The Terran Union uses these scanners to detect when ships are equipped with illegal weaponry. Installing more than one increases the scan range and speed."
 
-outfit "Asteroid Scanner⭐️"
+outfit "Asteroid Scanner (*)"
 	category "Systems"
 	cost 100000
 	thumbnail "outfit/asteroid scanner"
@@ -932,7 +932,7 @@ outfit "Asteroid Scanner⭐️"
 	"asteroid scan power" 30
 	description "This highly specialized scanning system can analyze the mineral composition of nearby asteroids and identify the ones that contain valuable materials."
 
-outfit "Surveillance Pod⭐️"
+outfit "Surveillance Pod (*)"
 	category "Systems"
 	cost 200000
 	thumbnail "outfit/surveillance pod"
@@ -946,7 +946,7 @@ outfit "Surveillance Pod⭐️"
 	"tactical scan power" 9
 	description "Surveillance pods are primarily employed by the Deep government in the surveillance drones they use to patrol their systems. Nonetheless, one can be yours, too... for a price."
 
-outfit "Tactical Scanner⭐️"
+outfit "Tactical Scanner (*)"
 	description "Scan! Scan! Scan!"
 	category "Systems"
 	cost 144000
@@ -956,7 +956,7 @@ outfit "Tactical Scanner⭐️"
 	"tactical scan power" 32
 	description "A tactical scanner allows your ship to determine the fuel, energy, heat, and crew complement of nearby targets. Tactical scanners are mainly used by military and security forces, but are available for private use as well."
 
-outfit "Interference Plating⭐️"
+outfit "Interference Plating (*)"
 	category "Systems"
 	cost 50000
 	thumbnail "outfit/interference plating"
@@ -965,7 +965,7 @@ outfit "Interference Plating⭐️"
 	"scan interference" .5
 	description "If you're in the habit of carrying illegal cargo or outfits, this plating increases the odds that a scan of your ship will fail to detect it. The more of these you install, the better your chances of evading detection. It even helps against scans at spaceports, so you can more reliably land to refuel without getting caught."
 
-outfit "Ramscoop⭐️"
+outfit "Ramscoop (*)"
 	category "Systems"
 	cost 60000
 	thumbnail "outfit/ramscoop"
@@ -975,7 +975,7 @@ outfit "Ramscoop⭐️"
 	description "The ramscoop has often been hailed as the most valuable piece of space technology created since the invention of the hyperdrive. It can harvest plasma from the solar wind to refill your hyperspace fuel tanks. Although you can install more than one ramscoop, additional ramscoops on a single ship are not as effective as the first."
 	description "	(As a safety measure, all ships are able to harvest tiny amounts of fuel by flying close to a star, but this outfit allows you to accumulate fuel much more quickly. The closer you are to the star, the faster fuel will accumulate.)"
 
-outfit "Fuel Pod⭐️"
+outfit "Fuel Pod (*)"
 	category "Systems"
 	cost 15000
 	thumbnail "outfit/fuel pod"
@@ -984,7 +984,7 @@ outfit "Fuel Pod⭐️"
 	"fuel capacity" 100
 	description "A fuel pod increases your fuel capacity, allowing your ship to make one additional hyperspace jump before it needs to land and refuel."
 
-outfit "Small Radar Jammer⭐️"
+outfit "Small Radar Jammer (*)"
 	category "Systems"
 	cost 27000
 	thumbnail "outfit/small radar jammer"
@@ -993,7 +993,7 @@ outfit "Small Radar Jammer⭐️"
 	"radar jamming" 2
 	description "This radar jammer is designed to interfere with Sidewinders and any other missiles that rely on radar for tracking their targets. Jamming will occasionally cause missiles to lose their target locks."
 
-outfit "Hyperdrive⭐️"
+outfit "Hyperdrive (*)"
 	category "Systems"
 	cost 50000
 	thumbnail "outfit/hyperdrive"
@@ -1006,7 +1006,7 @@ outfit "Hyperdrive⭐️"
 	description "	They say that fewer than a hundred human beings alive today understand the inner workings of the hyperdrive."
 
 
-outfit "X1700 Ion Thruster⭐️"
+outfit "X1700 Ion Thruster (*)"
 	category "Engines"
 	"cost" 12000
 	thumbnail "outfit/tiny ion thruster"
@@ -1022,7 +1022,7 @@ outfit "X1700 Ion Thruster⭐️"
 	description "This is the smallest thruster that you can buy, so weak that anything larger than a drone will accelerate quite slowly when using this engine. On the other hand, it is also very energy-efficient."
 	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space."
 
-outfit "X2700 Ion Thruster⭐️"
+outfit "X2700 Ion Thruster (*)"
 	category "Engines"
 	"cost" 26000
 	thumbnail "outfit/small ion thruster"
@@ -1038,7 +1038,7 @@ outfit "X2700 Ion Thruster⭐️"
 	description "The X2700 ion thruster is intended mostly for use in small, single-person or two-person ships, as well as in fighters. It is also used in larger ships, such as freighters, that have very little space for propulsion systems or energy to drive them. But these larger ships move unbearably slowly as a result."
 	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space."
 
-outfit "X3700 Ion Thruster⭐️"
+outfit "X3700 Ion Thruster (*)"
 	category "Engines"
 	"cost" 58000
 	thumbnail "outfit/medium ion thruster"
@@ -1054,7 +1054,7 @@ outfit "X3700 Ion Thruster⭐️"
 	description "The X3700 ion thruster is designed for heavy freighters and small capital ships. In theory, it could be installed in smaller ships too, if they have enough engine space, to attain almost ridiculous speeds."
 	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space."
 
-outfit "X1200 Ion Steering⭐️"
+outfit "X1200 Ion Steering (*)"
 	category "Engines"
 	"cost" 10000
 	thumbnail "outfit/tiny ion steering"
@@ -1070,7 +1070,7 @@ outfit "X1200 Ion Steering⭐️"
 	description "This is the smallest set of steering thrusters that you can buy, generally considered suitable only for tiny, pilotless drones. Occasionally pilots looking for some extra outfit space will try swapping out their larger steering systems for one of these, but the results are invariably disappointing."
 	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space."
 
-outfit "X2200 Ion Steering⭐️"
+outfit "X2200 Ion Steering (*)"
 	category "Engines"
 	"cost" 21000
 	thumbnail "outfit/small ion steering"
@@ -1086,7 +1086,7 @@ outfit "X2200 Ion Steering⭐️"
 	description "The X2200 steering system is designed for fighters and other small spacecraft, as well as for use in larger ships when maneuverability is not needed."
 	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space."
 
-outfit "X3200 Ion Steering⭐️"
+outfit "X3200 Ion Steering (*)"
 	category "Engines"
 	"cost" 46000
 	thumbnail "outfit/medium ion steering"
@@ -1103,7 +1103,7 @@ outfit "X3200 Ion Steering⭐️"
 	description "	Ion engines consume less energy than plasma engines and produce less heat, but they also take up more space."
 
 
-outfit "Variance Plasma Thruster⭐️"
+outfit "Variance Plasma Thruster (*)"
 	category "Engines"
 	"cost" 20000
 	thumbnail "outfit/tiny plasma thruster"
@@ -1119,7 +1119,7 @@ outfit "Variance Plasma Thruster⭐️"
 	description "This is the smallest of the plasma propulsion systems produced by the Terran Union government outfitter, suitable for very light fighters and interceptors."
 	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
 
-outfit "Venture Plasma Thruster⭐️"
+outfit "Venture Plasma Thruster (*)"
 	category "Engines"
 	"cost" 45000
 	thumbnail "outfit/small plasma thruster"
@@ -1135,7 +1135,7 @@ outfit "Venture Plasma Thruster⭐️"
 	description "This thruster is intended for small ships and for freighters. It comes in a crate decorated with a carving of one of the earliest human rockets."
 	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
 
-outfit "Valour Plasma Thruster⭐️"
+outfit "Valour Plasma Thruster (*)"
 	category "Engines"
 	"cost" 99000
 	thumbnail "outfit/medium plasma thruster"
@@ -1152,7 +1152,7 @@ outfit "Valour Plasma Thruster⭐️"
 	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
 
 
-outfit "Variance Plasma Steering⭐️"
+outfit "Variance Plasma Steering (*)"
 	category "Engines"
 	"cost" 16000
 	thumbnail "outfit/tiny plasma steering"
@@ -1168,7 +1168,7 @@ outfit "Variance Plasma Steering⭐️"
 	description "This is the smallest plasma steering system that is produced by anyone. The packaging features a map of Earth."
 	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
 
-outfit "Venture Plasma Steering⭐️"
+outfit "Venture Plasma Steering (*)"
 	category "Engines"
 	"cost" 36000
 	thumbnail "outfit/small plasma steering"
@@ -1184,7 +1184,7 @@ outfit "Venture Plasma Steering⭐️"
 	description "The Venture class plasma propulsion systems are one of the most popular propulsion systems in human space, suitable for a wide range of small starships."
 	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
 
-outfit "Valour Plasma Steering⭐️"
+outfit "Valour Plasma Steering (*)"
 	category "Engines"
 	"cost" 79000
 	thumbnail "outfit/medium plasma steering"
@@ -1200,7 +1200,7 @@ outfit "Valour Plasma Steering⭐️"
 	description "Valour class plasma steering systems are suitable for most freighters and all but the largest warships, and are also considerably more compact than the ion propulsion systems produced by Betelgeuse and Markab."
 	description "	Plasma engines are a bit more powerful than ion engines of the same size, but they are less energy efficient and produce more heat."
 
-outfit "A120 Atomic Thruster⭐️"
+outfit "A120 Atomic Thruster (*)"
 	category "Engines"
 	"cost" 140000
 	thumbnail "outfit/tiny atomic thruster"
@@ -1215,7 +1215,7 @@ outfit "A120 Atomic Thruster⭐️"
 	"flare sound" "atomic tiny"
 	description "If you're looking for the most powerful engine that will fit into your ship, and have plenty of money to burn, the Deep Federation's atomic thrusters are your answer. Of course, the extra energy and cooling they require can easily offset the benefit of their small size."
 
-outfit "A250 Atomic Thruster⭐️"
+outfit "A250 Atomic Thruster (*)"
 	category "Engines"
 	"cost" 280000
 	thumbnail "outfit/small atomic thruster"
@@ -1231,7 +1231,7 @@ outfit "A250 Atomic Thruster⭐️"
 	description "The Deep Federation's atomic thrusters are a fairly recent innovation, and remain a niche product due to their high prices and high energy requirements, best suited to government light warships."
 
 
-outfit "A125 Atomic Steering⭐️"
+outfit "A125 Atomic Steering (*)"
 	category "Engines"
 	"cost" 120000
 	thumbnail "outfit/tiny atomic steering"
@@ -1246,7 +1246,7 @@ outfit "A125 Atomic Steering⭐️"
 	"steering flare sound" "atomic tiny"
 	description "The Deep Federation's atomic thrusters are a popular choice for high-end starships. It is not uncommon for a set of atomic engines to cost more than the ship they are installed in."
 
-outfit "A255 Atomic Steering⭐️"
+outfit "A255 Atomic Steering (*)"
 	category "Engines"
 	"cost" 240000
 	thumbnail "outfit/small atomic steering"
@@ -1261,7 +1261,7 @@ outfit "A255 Atomic Steering⭐️"
 	"steering flare sound" "atomic small"
 	description "If you have exhausted all your other options for making your ship more maneuverable, it may be time to invest in a set of atomic engines."
 
-outfit "Laser Rifle⭐️"
+outfit "Laser Rifle (*)"
 	category "Hand to Hand"
 	cost 8000
 	thumbnail "outfit/laser rifle"
@@ -1271,7 +1271,7 @@ outfit "Laser Rifle⭐️"
 	description "A laser rifle is a step up from the sidearms that crew members typically carry for defense against pirates: more powerful, and more accurate as well. For each of these rifles that one of your crew is wielding, your odds of capturing another ship or defending your own ship from boarders are increased substantially."
 
 
-outfit "Fragmentation Grenades⭐️"
+outfit "Fragmentation Grenades (*)"
 	plural "Fragmentation Grenades"
 	category "Hand to Hand"
 	cost 17000
@@ -1282,7 +1282,7 @@ outfit "Fragmentation Grenades⭐️"
 	description "Fragmentation grenades are an only marginally legal weapon for hand-to-hand combat when boarding a ship, useful for flushing out defenders who are hunkered down in defensible choke points inside their own ship. They are much less useful as a defensive weapon, but still better than nothing."
 
 
-outfit "Security Station⭐️"
+outfit "Security Station (*)"
 	category "Hand to Hand"
 	cost 42000
 	thumbnail "outfit/security station"
@@ -1293,7 +1293,7 @@ outfit "Security Station⭐️"
 	"unplunderable" 1
 	description "This is a specially designed barricade, which can be installed in the hallways of your ship as a powerful defense against anyone who boards you in an attempt to take over your ship. You can even remove the mounted laser rifle and use it to board someone else's ship, although it is somewhat heavy."
 
-outfit "Nerve Gas⭐️"
+outfit "Nerve Gas (*)"
 	plural "Nerve Gas"
 	category "Hand to Hand"
 	cost 75000

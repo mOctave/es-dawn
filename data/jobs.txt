@@ -530,7 +530,7 @@ mission "Wealthy tourists out [Dawn]"
 	to offer
 		random < 75
 	on offer
-		require "Luxury Accommodations⭐️"
+		require "Luxury Accommodations (*)"
 	source
 		attributes "rich" "urban"
 		government "Terran Union" "Deep Federation" "Green Belt" "Betelgeuse" "Independent (Old Era)" "Syndicate (Old Era)"
@@ -595,7 +595,7 @@ mission "Wealthy tourists back [Dawn]"
 	to offer
 		random < 75
 	on offer
-		require "Luxury Accommodations⭐️"
+		require "Luxury Accommodations (*)"
 	source
 		attributes "tourism"
 		government "Terran Union" "Deep Federation" "Green Belt" "Betelgeuse" "Independent (Old Era)" "Syndicate (Old Era)"
@@ -681,7 +681,7 @@ mission "Prisoners [Dawn 0]"
 	to offer
 		random < 20
 	on offer
-		require "Brig⭐️"
+		require "Brig (*)"
 	source
 		government "Terran Union" "Deep Federation" "Green Belt" "Betelgeuse" "Independent (Old Era)" "Syndicate (Old Era)"
 	destination
@@ -703,7 +703,7 @@ mission "Prisoners [Dawn 1]"
 	to offer
 		random < 20
 	on offer
-		require "Brig⭐️"
+		require "Brig (*)"
 	source
 		government "Terran Union" "Deep Federation" "Green Belt" "Betelgeuse" "Independent (Old Era)" "Syndicate (Old Era)"
 	destination
@@ -726,7 +726,7 @@ mission "Prisoners [Dawn 2]"
 		random < 10
 		"combat rating" > 50
 	on offer
-		require "Brig⭐️"
+		require "Brig (*)"
 	source
 		government "Terran Union" "Deep Federation" "Green Belt" "Betelgeuse" "Independent (Old Era)" "Syndicate (Old Era)"
 	destination

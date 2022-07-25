@@ -19,46 +19,46 @@ mission "Green Belt A 0"
 		personality
 			heroic opportunistic escort
 			confusion 10
-		ship "Leviathan⭐️" "Goodly Shepherd"
+		ship "Leviathan (*)" "Goodly Shepherd"
 		fleet
 			names "green belt"
 			variant
-				"Berserker⭐️" 6
+				"Berserker (*)" 6
 	npc
 		government "Pirate"
 		system "Cebalrai"
 		personality
 			plunders harvests staying launching
 			confusion 20
-		ship "Leviathan⭐️" "Bloodletter"
+		ship "Leviathan (*)" "Bloodletter"
 		fleet
 			names "pirate"
 			variant
-				"Berserker⭐️" 4
+				"Berserker (*)" 4
 	npc
 		government "Pirate"
 		system "Cebalrai"
 		personality
 			plunders harvests staying entering
 			confusion 20
-		ship "Gunboat⭐️" "Small Mercy"
+		ship "Gunboat (*)" "Small Mercy"
 		fleet
 			names "pirate"
 			variant
-				"Rainmaker⭐️" 3
+				"Rainmaker (*)" 3
 	npc
 		government "Pirate"
 		system "Cebalrai"
 		personality
 			plunders harvests staying
 			confusion 20
-		ship "Aerie⭐️" "Hull Failure"
+		ship "Aerie (*)" "Hull Failure"
 		fleet
 			names "pirate"
 			variant
-				"Dagger⭐️"
-				"Lance⭐️"
-				"Berserker⭐️" 5
+				"Dagger (*)"
+				"Lance (*)"
+				"Berserker (*)" 5
 	to offer
 		random < 40
 		has "Dawn Intro 0: done"
@@ -121,8 +121,8 @@ mission "Green Belt A 1"
 		personality
 			opportunistic frugal escort
 			confusion 30
-		ship "Hauler III⭐️" "Green Fields"
-		ship "Hauler II⭐️" "Radiant Light"
+		ship "Hauler III (*)" "Green Fields"
+		ship "Hauler II (*)" "Radiant Light"
 	npc
 		government "Green Belt"
 		personality
@@ -131,13 +131,13 @@ mission "Green Belt A 1"
 		fleet
 			names "green belt"
 			variant
-				"Berserker⭐️" 4
+				"Berserker (*)" 4
 	npc
 		government "Independent (Old Era)"
 		personality
 			opportunistic frugal escort
 			confusion 20
-		ship "Gunboat⭐️" "Promise of Goodwill"
+		ship "Gunboat (*)" "Promise of Goodwill"
 	to offer
 		has "Green Belt A 0: done"
 	on offer
@@ -184,36 +184,36 @@ mission "Green Belt A 2"
 		personality
 			heroic opportunistic escort
 			confusion 10
-		ship "Gunboat⭐️" "Considerable Kindness"
+		ship "Gunboat (*)" "Considerable Kindness"
 		fleet
 			names "green belt"
 			variant
-				"Berserker⭐️" 4
+				"Berserker (*)" 4
 	npc
 		government "Pirate"
 		system "Kaus Borealis"
 		personality
 			plunders harvests staying
 			confusion 20
-		ship "Rainmaker⭐️" "Acid Rain"
+		ship "Rainmaker (*)" "Acid Rain"
 		fleet
 			names "pirate"
 			variant
-				"Dagger⭐️" 8
-				"Lance⭐️" 4
-				"Berserker⭐️" 3
+				"Dagger (*)" 8
+				"Lance (*)" 4
+				"Berserker (*)" 3
 	npc
 		government "Pirate"
 		system "Kaus Borealis"
 		personality
 			plunders harvests staying entering
 			confusion 20
-		ship "Aerie⭐️" "Peaceful Rest"
+		ship "Aerie (*)" "Peaceful Rest"
 		fleet
 			names "pirate"
 			variant
-				"Dagger⭐️" 2
-				"Gunboat⭐️" 2
+				"Dagger (*)" 2
+				"Gunboat (*)" 2
 	to offer
 		has "Green Belt A 1: done"
 	on offer
@@ -239,7 +239,7 @@ mission "Green Belt A 2"
 		payment 80000
 		conversation
 			`Beatrix thanks you once again, transfering a payment of <payment> to your bank account, and tells you to meet her back here in an hour if you're up for one more job. As she walks away, you are left contemplating the sunset, watching the hazy orbs of New Iceland's twin suns, appearing red-orange through the planet's atmosphere, sink slowly toward the horizon.`
-			"reputation: Green Belt" >?= 1
+		"reputation: Green Belt" >?= 1
 	on fail
 		dialog `You have failed an essential Green Belt mission. If you want to complete the story line, revert to the autosave or another earlier snapshot of the game.`
 
@@ -258,32 +258,32 @@ mission "Green Belt A 3"
 		personality
 			forbearing heroic frugal disables staying launching swarming
 			confusion 15
-		ship "Bactrian⭐️" "Returning Hero"
-		ship "Leviathan⭐️" "Fair Pastures"
-		ship "Leviathan⭐️" "Green Fields of Rutilicus"
-		ship "Leviathan⭐️" "Honour Guard"
-		ship "Gunboat⭐️" "Ashen Rains of Kaus Borealis"
-		ship "Gunboat⭐️" "Handpicked"
-		ship "Rainmaker⭐️" "Fireworks Display"
-		ship "Rainmaker⭐️" "Pour Jokes"
-		ship "Berserker⭐️" "Blue Knight of Arcturus"
-		ship "Berserker⭐️" "Good News"
-		ship "Berserker⭐️" "Unshot Messenger"
-		ship "Hauler⭐️" "Light Refreshments"
-		ship "Hauler⭐️" "Lighter Refreshments"
-		ship "Hauler⭐️" "Lightest Refreshments"
-		ship "Frigate⭐️" "New Greenland's Ice"
-		ship "Flivver⭐️" "Congratulations"
+		ship "Bactrian (*)" "Returning Hero"
+		ship "Leviathan (*)" "Fair Pastures"
+		ship "Leviathan (*)" "Green Fields of Rutilicus"
+		ship "Leviathan (*)" "Honour Guard"
+		ship "Gunboat (*)" "Ashen Rains of Kaus Borealis"
+		ship "Gunboat (*)" "Handpicked"
+		ship "Rainmaker (*)" "Fireworks Display"
+		ship "Rainmaker (*)" "Pour Jokes"
+		ship "Berserker (*)" "Blue Knight of Arcturus"
+		ship "Berserker (*)" "Good News"
+		ship "Berserker (*)" "Unshot Messenger"
+		ship "Hauler (*)" "Light Refreshments"
+		ship "Hauler (*)" "Lighter Refreshments"
+		ship "Hauler (*)" "Lightest Refreshments"
+		ship "Frigate (*)" "New Greenland's Ice"
+		ship "Flivver (*)" "Congratulations"
 		fleet
 			names "green belt"
 			cargo 5
 			variant
-				"Hauler II⭐️" 2
-				"Shuttle⭐️" 4
-				"Berserker⭐️" 2
-				"Aerie⭐️" 2
-				"Dagger⭐️" 3
-				"Lance⭐️"
+				"Hauler II (*)" 2
+				"Shuttle (*)" 4
+				"Berserker (*)" 2
+				"Aerie (*)" 2
+				"Dagger (*)" 3
+				"Lance (*)"
 	to offer
 		has "Green Belt A 1: done"
 	on offer
