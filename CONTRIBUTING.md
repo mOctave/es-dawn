@@ -33,6 +33,7 @@ Please do not work on developing the plot at this time. Instead, I would welcome
 * New (or rather old) ships – see [here](https://github.com/endless-sky/endless-sky/wiki/CreatingShips) for a guide on how to do that.
 * One or two primitive missile systems.
 * Nuclear engines (designed to be cheap but very power and heat intensive).
+* Change things with alien species so that things make sense for that time (such as not having loads of human merchants on Allhome).
 
 If you haven't done much development with Endless Sky stuff, you can still help! Simpler, but even more important, tasks include:
 
