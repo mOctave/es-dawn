@@ -7,7 +7,7 @@ mission "Dawn Intro 0"
 	destination "Valhalla"
 	on offer
 		"salary: Terran Union" = 100
-		# event "remap universe"
+		event "remap universe"
 		log "Space History" "1957 October 4" "Launch of Sputnik, the first human-made satellite to orbit Earth."
 		log "Space History" "1961 April 12" "First human in space."
 		log "Space History" "1969 July 20" "First manned moon landing."
