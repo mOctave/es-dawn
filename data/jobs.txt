@@ -1017,6 +1017,7 @@ mission "Colonist escort [Follower]"
 # Early colony missions: Cornucopia (I) √, Follower (DF) √, Deep-*Special chain* (-), Haze (DF), Geminus (TU), Hope-*High risk* (I), Bivrost (DF)
 
 # Far south colony missions (Offered from Cornucopia, requires either Hope or Deep mission) (I): Poisonwood, Lichen, Solace, Thule
+# Thule needs to become settled!
 
 # Deep colony missions (Offered from Haze, and requires either Follower or Bivrost mission): Ingot (DF)
 
