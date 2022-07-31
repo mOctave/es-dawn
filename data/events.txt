@@ -68,8 +68,13 @@ event "remap universe"
 		government "Uninhabited"
 		remove fleet
 	system "Men"
-		government "Uninhabited"
+		government "Independent"
 		remove fleet
+		government "Independent (Old Era)"
+		fleet "Small Old Era Merchants" 2000
+		fleet "Large Old Era Merchants" 8000
+		fleet "Small Old Era Pirates" 4000
+		fleet "Independent Patrols" 10000
 	system "Nunki"
 		government "Uninhabited"
 		remove fleet
@@ -117,12 +122,12 @@ event "remap universe"
 		government "Uninhabited"
 		remove fleet
 	system "Alhena"
+		remove fleet
 		government "Independent (Old Era)"
 		fleet "Small Old Era Merchants" 800
 		fleet "Large Old Era Merchants" 5000
 		fleet "Small Old Era Pirates" 4000
 		fleet "Independent Patrols" 1000
-		remove fleet
 	system "Alioth"
 		government "Uninhabited"
 		remove fleet
@@ -2043,9 +2048,9 @@ event "remap universe"
 		remove outfitter
 	
 	planet "Thule"
-		attributes pirate "south pirate" south frontier uninhabited
-		description `Thule is a mountainous world that is otherwise fairly normal. You see nothing here to pique your interest.`
-		remove spaceport
+		attributes south frontier
+		description `Thule is a mountainous world that was colonized about a hundred years ago. While other colonies established at that time have faded into nonexistence, Thule has flourished. There is an unusal culture here, and the people around you seem very suspicious of you.`
+		spaceport `You have heard rumours that Thule is involved in piracy. Looking at the ships beside yours in the spaceport, the rumours seem more than likely to be true: there are a surprising number of warships parked here, many of which are badly damaged. Leaving your ship behind, you notice that many of those around you are heavily armed, and you even see someone wearing full tactical combat armour who appears to be nothing more than a merchant.`
 		remove outfitter
 	
 	planet "Thunder"

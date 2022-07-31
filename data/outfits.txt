@@ -139,30 +139,6 @@
 # A375 Atomic Steering - Alpha Wars
 # AR120 Reverse Thruster - Alpha Wars
 
-outfitter "Military"
-	"Heavy Laser (*)"
-	"Energy Blaster (*)"
-	"Heavy Laser Turret (*)"
-	"Quad Blaster Turret (*)"
-	"Javelin (*)"
-	"Meteor Missile (*)"
-	"Sidewinder Missile (*)"
-	"Torpedo (*)"
-	"Meteor Missile Launcher (*)"
-	"Torpedo Launcher (*)"
-	"D14-RN Shield Generator (*)"
-	"D23-QP Shield Generator (*)"
-	"D41-HY Shield Generator (*)"
-	"Laser Rifle (*)"
-	"Fragmentation Grenades (*)"
-	"Security Station (*)"
-	"Surveillance Pod (*)"
-	"Tactical Scanner (*)"
-	"Ramscoop (*)"
-	"Valour Plasma Thruster (*)"
-	"Valour Plasma Steering (*)"
-	"Terran Union License (*)"
-
 outfit "Terran Union License (*)"
 	category "Special"
 	cost 2800000
