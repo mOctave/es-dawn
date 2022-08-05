@@ -25,7 +25,19 @@ mission "Dawn Intro 0"
 			`	Not five minutes after entering your ship for the first time, you receive a message. You are to proceed to the Epsilon Leonis system in Deep Federation space to give five tons of paperwork to Deep HQ.`
 				launch
 	on accept
-		event "remap universe"
+		event "remap universe (0)"
+		event "remap universe (1)"
+		event "remap universe (2)"
+		event "remap universe (3)"
+		event "remap universe (4)"
+		visit Sirius
+		visit Procyon
+		visit Pollux
+		visit Talita
+		visit Alphard
+		visit Zosma
+		visit Gomeisa
+		visit Epsilon Leonis
 	on visit
 		dialog phrase "generic cargo on visit"
 	on complete

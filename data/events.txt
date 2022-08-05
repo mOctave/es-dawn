@@ -1,4 +1,4 @@
-event "remap universe"
+event "remap universe (0)"
 	#date 24 5 2447
 
 	government "Escort"
@@ -7,6 +7,7 @@ event "remap universe"
 		"attitude toward"
 			"Independent" -.01
 
+event "remap universe (1)"
 # Disable missions from the main storyline
 	set "Intro [0]: offered"
 	set "Intro [0]: declined"
@@ -21,17 +22,19 @@ event "remap universe"
 # This doesn't work...
 	set "FW Vanilla Escort Removed A: done"
 
+#event "remap universe (1.3)"
 # Fill in map to Epsilon Leonis
 
-	visit Sirius
-	visit Procyon
-	visit Pollux
-	visit Talita
-	visit Alphard
-	visit Zosma
-	visit Gomeisa
-	visit Epsilon Leonis
+#	visit Sirius
+#	visit Procyon
+#	visit Pollux
+#	visit Talita
+#	visit Alphard
+#	visit Zosma
+#	visit Gomeisa
+#	visit Epsilon Leonis
 
+event "remap universe (2)"
 # Clear out systems
 
 	system "Alcyone"
@@ -725,6 +728,7 @@ event "remap universe"
 		government "Uninhabited"
 		remove fleet
 
+event "remap universe (3)"
 # Redefine shipyards
 
 	shipyard "Basic Ships"
@@ -948,6 +952,7 @@ event "remap universe"
 		"Interference Plating (*)"
 		"Brig (*)"
 	
+event "remap universe (4)"
 # Redefine planets
 	
 	planet "Ada"
