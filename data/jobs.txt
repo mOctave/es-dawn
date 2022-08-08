@@ -958,7 +958,7 @@ mission "Colonist escort [Follower]"
 	description "Join a convoy escorting colonists to <destination> for <payment>."
 	to offer
 		random < 80
-		not "event: Follower colonized"
+		not "event: Alphard colonized"
 	source "Valhalla"
 	destination "Follower"
 	npc accompany save
@@ -1014,10 +1014,70 @@ mission "Colonist escort [Follower]"
 		"reputation: Deep Federation" >?= 3
 		"colony missions complete" >?= 1
 
-# Early colony missions: Cornucopia (I) √, Follower (DF) √, Deep-*Special chain* (-), Haze (DF), Geminus (TU), Hope-*High risk* (I), Bivrost (DF)
 
-# Far south colony missions (Offered from Cornucopia, requires either Hope or Deep mission) (I): Poisonwood, Lichen, Solace, Thule
-# Thule needs to become settled!
+mission "Colonist escort [Haze]"
+	name "Escort colonists to <planet>"
+	job
+	description "Join a convoy escorting colonists to <destination> for <payment>."
+	to offer
+		random < 80
+		not "event: Dubhe colonized"
+	source "Midgard"
+	destination "Haze"
+	npc accompany save
+		government "Deep Federation"
+		personality
+			confusion 35
+			timid frugal escort launching
+		ship "Bactrian" "Valiant Queen"
+		fleet
+			names "civilian"
+			variant
+				"Star Queen"
+				"Shuttle" 5
+				"Hauler III" 2
+				"Hauler II"
+	npc
+		government "Deep Federation"
+		personality
+			confusion 10
+			heroic opportunistic escort launching
+		ship "Bactrian" "D.S.S. Venturi"
+		fleet
+			names "deep"
+			fighters "deep fighter"
+			variant
+				"Aerie" 4
+				"Dagger" 8
+	
+	npc
+		government "Pirate"
+		personality
+			confusion 10
+			coward opportunistic
+		ship "Leviathan" "Fangs of Titanium"
+		system destination
+		fleet
+			names "bounty hunter"
+			variant
+				"Gunboat" 2
+				"Rainmaker"
+	on accept
+		event "Dubhe colonized"
+	on visit
+		dialog "You have arrived at <destination>, but you have left the colonists behind!"
+	on fail
+		dialog "You have failed to escort all the colonists safely to <destination>....."
+		"reputation: Deep Federation" <?= 1
+	on complete
+		payment 120000
+		dialog "You arrive at <destination> with the colonist convoy, and wish the colonists good luck. They pay you <payment> in return."
+		"reputation: Deep Federation" >?= 3
+		"colony missions complete" >?= 1
+
+# Early colony missions: Cornucopia (I) √, Follower (DF) √, Deep-*Special chain* (-), Haze (DF) √, Geminus (TU), Hope-*High risk* (I), Bivrost (DF)
+
+# Far south colony missions (Offered from Cornucopia, requires either Hope or Deep mission) (I): Poisonwood, Lichen, Solace
 
 # Deep colony missions (Offered from Haze, and requires either Follower or Bivrost mission): Ingot (DF)
 

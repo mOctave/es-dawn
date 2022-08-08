@@ -2050,7 +2050,7 @@ event "remap universe"
 		attributes south frontier
 		description `Thule is a mountainous world that was colonized about a hundred years ago. While other colonies established at that time have faded into nonexistence, Thule has flourished. There is an unusal culture here, and the people around you seem very suspicious of you.`
 		spaceport `You have heard rumours that Thule is involved in piracy. Looking at the ships beside yours in the spaceport, the rumours seem more than likely to be true: there are a surprising number of warships parked here, many of which are badly damaged. Leaving your ship behind, you notice that many of those around you are heavily armed, and you even see someone wearing full tactical combat armour who appears to be nothing more than a merchant.`
-		remove outfitter
+		outfitter "Common Outfits"
 	
 	planet "Thunder"
 		attributes rim uninhabited
@@ -2289,7 +2289,7 @@ event "Green Belt created"
 # Settling events
 
 event "Kappa Centauri colonized"
-	date 1 7 2488
+#	date 1 7 2488
 	system "Kappa Centauri"
 		government "Independent (Old Era)"
 		fleet "Small Old Era Merchants" 1500
@@ -2308,7 +2308,7 @@ event "Kappa Centauri colonized"
 
 
 event "Alphard colonized"
-	date 2 23 2488
+#	date 2 23 2488
 	system "Alphard"
 		government "Deep Federation"
 		fleet "Small Old Era Merchants" 1500
@@ -2328,3 +2328,23 @@ event "Alphard colonized"
 		tribute 2000
 			threshold 5000
 			fleet "Deep Federation" 12
+
+
+
+event "Dubhe colonized"
+#	date 2 23 2488
+	system "Dubhe"
+		government "Deep Federation"
+		fleet "Small Old Era Merchants" 4000
+		fleet "Large Old Era Merchants" 3000
+		fleet "Deep Federation" 2000
+	planet "Follower"
+		remove attributes uninhabited
+		description `Haze is a world of very small-scale manufacturing. Very few people live on this newly-settled planet, and only about twenty percent of the surface has been mapped in any detail despite numerous overflights.`
+		spaceport `The spaceport here is a flat chunk of basalt that got dropped from the sky. There are no buildings, only a small fuel tank and what looks like a cross between a lean-to and a tepee. Someone standing near the edge of the chunk of basalt waves you down, but makes no more than a cursory glance at your cargo before allowing you to go back to doing whatever you plan to do.`
+		outfitter "Deep Sky Basics"
+		outfitter "Ammo North"
+		security 0.05
+		tribute 1400
+			threshold 3000
+			fleet "Deep Federation" 3
