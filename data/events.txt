@@ -17,9 +17,6 @@ event "remap universe"
 	set "event: war begins"
 	set "chosen sides"
 	set "main plot completed"
-# Disable the weird mission from the original game that shows up on start...
-# This doesn't work...
-	set "FW Vanilla Escort Removed A: done"
 
 # Fill in map to Epsilon Leonis
 	visit Sirius
@@ -1886,7 +1883,7 @@ event "remap universe"
 		remove spaceport
 	
 	planet "Rand"
-		attributes "dirt belt" mining
+		attributes "dirt belt" mining uninhabited
 		description `Rand is a desert world, too dry for much farming and with gravity low enough to be uncomfortable for most human beings. It is, however, the best source of heavy metals in the galactic south, so the only thing stopping it from being colonized are the pirates of Cebalrai and Kaus Borealis.`
 		remove spaceport
 	
