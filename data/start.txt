@@ -1,3 +1,69 @@
+start "dawn dev"
+	name "Dawn of Development"
+	description `As a young child, you always dreamed of becoming an astronaut, once of the breed of intrepid start-trotters who always seem to come back with news of a new planet to settle.`
+	description `	Then, of course, you shifted gears, and started hacking the universe in your quest to develop Dawn of Exploration.`
+	thumbnail "nasa0"
+	date 24 5 2447
+	system "Sol"
+	planet "Earth"
+	conversation "dawn intro"
+	account
+		credits 1000000
+		score 800
+	ship "Scout (*)"
+		name "Gleam of Sirius"
+		sprite "ship/scout"
+		thumbnail "thumbnail/scout"
+		attributes
+			category "Transport"
+			"cost" 1850000
+			"shields" 800
+			"hull" 400
+			"required crew" 2
+			"bunks" 12
+			"mass" 110
+			"drag" 3.4
+			"heat dissipation" .6
+			"fuel capacity" 800
+			"cargo space" 45
+			"outfit space" 220
+			"weapon capacity" 40
+			"engine capacity" 100
+			weapon
+				"blast radius" 16
+				"shield damage" 160
+				"hull damage" 80
+				"hit force" 240
+		outfits
+			"Energy Blaster (*)" 2
+			"Anti-Missile Turret (*)"
+
+			"nGVF-CC Fuel Cell (*)"
+			"LP036a Battery Pack (*)"
+			"D14-RN Shield Generator (*)"
+			"Small Radar Jammer (*)"
+			"Ramscoop (*)"
+		
+			"X3700 Ion Thruster (*)"
+			"X3200 Ion Steering (*)"
+			"Hyperdrive (*)"
+			"Developer Map (*)"
+		
+		engine -8 46
+		engine 8 46
+		gun -20 -7 "Energy Blaster (*)"
+		gun 20 -7 "Energy Blaster (*)"
+		turret 0 -7 "Anti-Missile Turret (*)"
+		explode "tiny explosion" 10
+		explode "small explosion" 20
+		explode "medium explosion" 15
+		leak "leak" 50 50
+		leak "flame" 60 80
+		"final explode" "final explosion small"
+		description "This prototype of the Deep Scoutship is a state-of-the-art long-distance exploration ship. Its twin blasters provide defense from all manner of potential threats, and it easily has enough fuel to take it wherever it needs to go."
+	set "license: Developer's"
+
+
 start "dawn"
 	name "Dawn of Exploration"
 	description `As a young child, you always dreamed of becoming an astronaut, once of the breed of intrepid start-trotters who always seem to come back with news of a new planet to settle.`

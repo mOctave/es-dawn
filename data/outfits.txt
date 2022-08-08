@@ -1375,3 +1375,18 @@ outfit "Nerve Gas (*)"
 	"illegal" 1000000
 	"unplunderable" 1
 	description "This is a highly illegal weapon for hand to hand combat when boarding an enemy ship. Because chemical weapons are banned by interstellar law, you can be severely fined for getting caught in possession of nerve gas canisters. But, they do clear out an enemy ship quicker than just about anything else..."
+
+# Stuff for development purposes
+
+outfit "Developer Map (*)"
+	category "Special"
+	cost 10000000000
+	thumbnail "outfit/map"
+	"map" 1000
+		licenses
+			"Developer's"
+	description "The Developer Map allows you to see all of human space without having to actually visit anywhere. Or maybe you can trade it in for a lot of credits..."
+
+outfit "Developer's License"
+	category "Special"
+	description "A license for developers."

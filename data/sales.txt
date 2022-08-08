@@ -24,6 +24,7 @@ outfitter "Military"
 	"Comet Staged Missile (*)"
 	"Comet Missile Launcher (*)"
 	"Comet Storage Rack (*)"
+	"Developer Map (*)"
 
 outfitter "Deep Ammo"
 	"Torpedo (*)"
