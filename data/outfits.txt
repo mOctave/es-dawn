@@ -98,6 +98,14 @@
 # A125 Atomic Steering
 # A250 Atomic Thruster
 # A255 Atomic Steering
+# N1 Nuclear Thruster
+# N1 Nuclear Steering
+# N2 Nuclear Thruster
+# N2 Nuclear Steering
+# N3 Nuclear Thruster
+# N3 Nuclear Steering
+# N4 Nuclear Thruster
+# N4 Nuclear Steering
 
 # Hand to Hand:
 # Laser Rifle

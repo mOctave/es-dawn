@@ -1058,7 +1058,9 @@ event "remap universe"
 	planet "Asgard"
 		attributes deep factory urban rich
 		description `Asgard was one of the first worlds to be settled in the Deep. Although it is quite near the pirate system of Suhail, it is still very prosperous, and may one day rival even Valhalla.`
-		description `	This is also the home of Deep Sky, a manufacturing firm that produces a wide variety of expensive and useful starship equipment.`
+		description `	This is also the home of Deep Sky, a manufacturing firm that produces a wide variety of expensive and useful starship equipment, making its money off of the fact that it is the official outfitter of the Deep.`
+		outfitter "Common Outfits"
+		outfitter "Deep Advanced"
 		tribute 3500
 			threshold 7000
 			fleet "Deep Federation" 25
@@ -1606,6 +1608,8 @@ event "remap universe"
 		description `Midgard is a world with as much geographic diversity as Earth itself: mountains, tundra, desert, oceans, marshes, plains. It was the second world in the Deep to be settled, nearly two centuries ago. It is now home to dozens of major metropolitan areas and a population of over almost a billion. Although a select few live outside the cities and work in farming or ranching, the vast majority of people here have jobs in manufacturing.`
 		description `	Food, fashion, and entertainment here all strike you as out of pace with broader galactic culture. The deep independent history of the planet makes it less likely to simply follow the latest Earth trends as the more recent colonies do.`
 		spaceport `The spaceport is located in the center of the city of New Reykjavik, a bustling metropolis which is also Midgard's center of government. The port was built quite recently, and its architecture is much more conservative than other ports in the Deep: instead of domes and rounded, wavy surfaces, it is a collection of tall, square granite towers, connected by bridges at various levels. Most of the hotels and restaurants are in a central tower, slightly higher than the others. There is no central marketplace; instead, you can just buy or sell cargo from a computer terminal and a robotic forklift will arrive at your docking bay to carry it.`
+		outfitter "Common Outfits"
+		outfitter "Deep Advanced"
 		tribute 3000
 			threshold 6000
 			fleet "Deep Federation" 20
@@ -1742,7 +1746,8 @@ event "remap universe"
 	planet "Nifel"
 		description `Nifel is a cold world, with summers too short to grow most crops, and very little indigenous wildlife aside from thick-furred mammals, and some migratory birds that travel from one hemisphere to the other every year.`
 		description `	Nifel is also the center of medical science in the Deep Federation, with its prestigious medical academy providing quite the boost to the economy.`
-		remove outfitter
+		outfitter "Basic Outfits"
+		outfitter "Deep Ammo"
 		tribute 2000
 			threshold 6000
 			fleet "Deep Federation" 10
@@ -1754,6 +1759,8 @@ event "remap universe"
 		remove outfitter
 	
 	planet "Norn"
+		outfitter "Basic Outfits"
+		outfitter "Deep Basics"
 		tribute 500
 			threshold 3000
 			fleet "Deep Federation" 6
@@ -2144,8 +2151,7 @@ event "remap universe"
 		description `	The shipyards of the Deep are located here. The ships designed and built in the Deep are some of the most technologically advanced ships in human space - and the most expensive.`
 		description `	Finally, Valhalla is also the capital of the Deep Federation, the current nation in control of the Deep: both the region and the company.`
 		outfitter "Common Outfits"
-		outfitter "Ammo North"
-		outfitter "Deep Sky Advanced"
+		outfitter "Deep Advanced"
 		outfitter "Military"
 		security 0.9
 		tribute 4000
@@ -2319,8 +2325,8 @@ event "Alphard colonized"
 		shipyard "Betelgeuse Advanced"
 		shipyard "Lionheart Basics"
 		outfitter "Common Outfits"
-		outfitter "Deep Sky Basics"
-		outfitter "Ammo North"
+		outfitter "Deep Basics"
+		outfitter "Local Outfits"
 		security 0.4
 		tribute 2000
 			threshold 5000
@@ -2335,7 +2341,7 @@ event "Dubhe colonized"
 		fleet "Small Old Era Merchants" 4000
 		fleet "Large Old Era Merchants" 3000
 		fleet "Deep Federation" 2000
-	planet "Follower"
+	planet "Haze"
 		remove attributes uninhabited
 		description `Haze is a world of very small-scale manufacturing. Very few people live on this newly-settled planet, and only about twenty percent of the surface has been mapped in any detail despite numerous overflights.`
 		spaceport `The spaceport here is a flat chunk of basalt that got dropped from the sky. There are no buildings, only a small fuel tank and what looks like a cross between a lean-to and a tepee. Someone standing near the edge of the chunk of basalt waves you down, but makes no more than a cursory glance at your cargo before allowing you to go back to doing whatever you plan to do.`
