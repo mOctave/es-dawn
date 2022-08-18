@@ -953,6 +953,7 @@ event "remap universe"
 	outfitter "Kraz Advanced"
 		clear
 	outfitter "Pirate Outfits"
+		clear
 		"Modified Blaster (*)"
 		"Plasma Cannon (*)"
 		"Laser Rifle (*)"
@@ -962,6 +963,47 @@ event "remap universe"
 		"Local Map (*)"
 		"Interference Plating (*)"
 		"Brig (*)"
+	outfitter "Common Outfits"
+		clear
+		"Energy Blaster (*)"
+		"X1700 Ion Thruster (*)"
+		"X1200 Ion Steering (*)"
+		"X2700 Ion Thruster (*)"
+		"X2200 Ion Steering (*)"
+		"LP036a Battery Pack (*)"
+		"LP072a Battery Pack (*)"
+		"KP-6 Photovoltaic Panel (*)"
+		"KP-6 Photovoltaic Array (*)"
+		"nGVF-AA Fuel Cell (*)"
+		"nGVF-BB Fuel Cell (*)"
+		"Cooling Ducts (*)"
+		"Water Coolant System (*)"
+		"D14-RN Shield Generator (*)"
+		"Hyperdrive (*)"
+		"Meteor Missile (*)"
+		"Cargo Scanner (*)"
+		"X3700 Ion Thruster (*)"
+		"X3200 Ion Steering (*)"
+		"LP144a Battery Pack (*)"
+		"nGVF-CC Fuel Cell (*)"
+		"D23-QP Shield Generator (*)"
+		"D41-HY Shield Generator (*)"
+		"Small Radar Jammer (*)"
+		"Blaster Turret (*)"
+		"Meteor Missile Launcher (*)"
+		"Meteor Missile Box (*)"
+		"Beam Laser (*)"
+		"Outfits Expansion (*)"
+		"Cargo Expansion (*)"
+		"Small Bunk Room (*)"
+		"Bunk Room (*)"
+		"Fuel Pod (*)"
+		"Afterburner (*)"
+		"Outfit Scanner (*)"
+		"Asteroid Scanner (*)"
+		"Supercapacitor (*)"
+		"Local Map (*)"
+		"Laser Rifle (*)"
 	
 # Redefine planets
 	
@@ -2323,6 +2365,8 @@ event "Kappa Centauri colonized"
 		description `	From orbit, most of the landmass seems covered with a bizarre pixelated pattern. On approach, this resolves into a vast patchwork of fields and irrigation circles.`
 		spaceport `The spaceport on Cornucopia is a set of massive hangars in the center of a wide-open plain. Before leaving your ship you had to sign several documents regarding the use and disposal of various chemicals used in ship operations, and the department of agriculture requires that any luggage you bring on or off world be submitted to a scan for biological material.`
 		spaceport `	When you leave your hangar, you find yourself in an immense farmers' market, with hundreds of fruits and grains that you do not even know words for. The smell of this world is rich and earthy - you feel like you could almost receive all the nourishment your body needs just by breathing this air.`
+		outfitter "Local Outfits"
+		outfitter ""
 		security 0.1
 		tribute 800
 			threshold 4000
@@ -2364,8 +2408,8 @@ event "Dubhe colonized"
 		remove attributes uninhabited
 		description `Haze is a world of very small-scale manufacturing. Very few people live on this newly-settled planet, and only about twenty percent of the surface has been mapped in any detail despite numerous overflights.`
 		spaceport `The spaceport here is a flat chunk of basalt that got dropped from the sky. There are no buildings, only a small fuel tank and what looks like a cross between a lean-to and a tepee. Someone standing near the edge of the chunk of basalt waves you down, but makes no more than a cursory glance at your cargo before allowing you to go back to doing whatever you plan to do.`
-		outfitter "Deep Sky Basics"
-		outfitter "Ammo North"
+		outfitter "Deep Basics"
+		outfitter "Betelgeuse Ammo"
 		security 0.05
 		tribute 1400
 			threshold 3000

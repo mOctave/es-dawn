@@ -2,7 +2,6 @@
 #	es-dawn: A plugin for endless sky providing an alternate, and much
 #	earlier, storyline.
 #	Copyright © 2022 mOctave
-#	Copyright © 2022 mOctave
 # ------------------------------------------------------------------------- #
 #	This program is free software: you can redistribute it and/or modify
 #	it under the terms of the GNU General Public License as published by
