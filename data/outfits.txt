@@ -174,7 +174,7 @@
 outfit "Terran Union License (*)"
 	category "Special"
 	cost 2800000
-	thumbnail "outfit/license-TUn"
+	thumbnail "outfit/license-TU"
 	description "The Terran Union License is a way of restricting the sale of powerful naval warships like the Frigate to trustworthy individuals. Although you can buy one instead of meeting the other qualifications, the price of a Terran Union License is so great that most people opt for alternatives to the Frigate instead."
 
 outfit "Deep Federation City-Ship License (*)"
@@ -1417,3 +1417,131 @@ outfit "Developer Map (*)"
 outfit "Developer's License"
 	category "Special"
 	description "A license for developers."
+
+outfit "N1 Nuclear Thruster (*)"
+	category "Engines"
+	"cost" 8000
+	thumbnail "outfit/?"
+	"mass" 18
+	"outfit space" -18
+	"engine capacity" -18
+	"thrust" 7.0
+	"thrusting energy" 0.3
+	"thrusting heat" 1.1
+	"thrusting fuel" 0.25
+	"flare sprite" "effect/nuclear flare/tiny"
+		"frame rate" 2
+	"flare sound" "atomic small"
+	description "Nuclear engines are a dying breed of engine. Once, they were hailed as the pinnacle of engineering. Now, however, they are more than four hundred years old, and are rapidly being replaced by the more efficient and faster improving ion and plasma engines, which don't need fuel to run."
+
+outfit "N1 Nuclear Steering (*)"
+	category "Engines"
+	"cost" 6000
+	thumbnail "outfit/?"
+	"mass" 14
+	"outfit space" -14
+	"engine capacity" -14
+	"turn" 150
+	"turning energy" 0.2
+	"turning heat" 0.7
+	"turning fuel" 0.25
+	"steering flare sprite" "effect/nuclear flare/tiny"
+		"frame rate" 2
+	"steering flare sound" "atomic small"
+	description "If you're short on money but have plenty of fuel and energy to burn and don't have heat troubles, you can purchase a set of nuclear thrusters. You may also want to invest in a ramscoop..."
+
+outfit "N2 Nuclear Thruster (*)"
+	category "Engines"
+	"cost" 14000
+	thumbnail "outfit/?"
+	"mass" 28
+	"outfit space" -28
+	"engine capacity" -28
+	"thrust" 13.0
+	"thrusting energy" 0.5
+	"thrusting heat" 1.9
+	"thrusting fuel" 0.45
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 13
+	"flare sound" "atomic small"
+	description "This set of nuclear thrusters is decently large, built with freighters and interceptors in mind. They are very cost efficient, but not very efficient in any other way."
+
+outfit "N2 Nuclear Steering (*)"
+	category "Engines"
+	"cost" 10000
+	thumbnail "outfit/?"
+	"mass" 24
+	"outfit space" -24
+	"engine capacity" -24
+	"turn" 250
+	"turning energy" 0.4
+	"turning heat" 1.2
+	"turning fuel" 0.45
+	"steering flare sprite" "effect/atomic flare/small"
+		"frame rate" 13
+	"steering flare sound" "atomic small"
+	description "The scary trefoil and strange green alien on the box of these nuclear steering thrusters appear to be designed to frighten people away from buying them, instead opting for a more expensive set of engines that will give the outfitter a higher profit margin."
+
+outfit "N3 Nuclear Thruster (*)"
+	category "Engines"
+	"cost" 21000
+	thumbnail "outfit/?"
+	"mass" 38
+	"outfit space" -38
+	"engine capacity" -38
+	"thrust" 19.0
+	"thrusting energy" 0.7
+	"thrusting heat" 2.8
+	"thrusting fuel" 0.65
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 13
+	"flare sound" "atomic small"
+	description "This set of nuclear thrusters is built to service light warships, transports, and heavy freighters. It is bulky, burns a lot of fuel, and is still cheaper than anything else in the same power range."
+
+outfit "N3 Nuclear Steering (*)"
+	category "Engines"
+	"cost" 15000
+	thumbnail "outfit/?"
+	"mass" 34
+	"outfit space" -34
+	"engine capacity" -34
+	"turn" 375
+	"turning energy" 0.6
+	"turning heat" 1.8
+	"turning fuel" 0.6
+	"steering flare sprite" "effect/atomic flare/small"
+		"frame rate" 13
+	"steering flare sound" "atomic small"
+	description "Three nozzles are better than one! That is, better than one nozzle of the same type. These engines are not necessarily the best, but at least you won't be spending your life savings on them."
+
+outfit "N4 Nuclear Thruster (*)"
+	category "Engines"
+	"cost" 29000
+	thumbnail "outfit/?"
+	"mass" 48
+	"outfit space" -48
+	"engine capacity" -48
+	"thrust" 25.0
+	"thrusting energy" 0.9
+	"thrusting heat" 3.7
+	"thrusting fuel" 0.9
+	"flare sprite" "effect/atomic flare/small"
+		"frame rate" 13
+	"flare sound" "atomic small"
+	description "This is the largest set of nuclear thrusters money can buy. If you need more, you'll just have to buy multiple nuclear thruster systems and install them all."
+
+outfit "N4 Nuclear Steering (*)"
+	category "Engines"
+	"cost" 21000
+	thumbnail "outfit/?"
+	"mass" 44
+	"outfit space" -44
+	"engine capacity" -44
+	"turn" 500
+	"turning energy" 0.8
+	"turning heat" 2.7
+	"turning fuel" 0.8
+	"steering flare sprite" "effect/atomic flare/small"
+		"frame rate" 13
+	"steering flare sound" "atomic small"
+	description "If you ever feel the need to dump large amounts of radiactive waste in space, nuclear steering systems are the way to go. Now you can dump more hazardous material in space than ever before with the N4 nuclear steering system!"
