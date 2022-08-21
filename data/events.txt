@@ -2285,13 +2285,6 @@ event "remap universe"
 		remove shipyard
 		remove outfitter
 
-shipyard "Terran Navy"
-	"Rainmaker (*)"
-	"Gunboat (*)"
-	"Lance (*)"
-	"Surveillance Drone (*)"
-	"Frigate (*)"
-
 # Green belt creation event
 
 event "Green Belt created"
@@ -2410,3 +2403,27 @@ event "Dubhe colonized"
 		tribute 1400
 			threshold 3000
 			fleet "Deep Federation" 3
+
+
+event "Castor colonized"
+#	date 2 23 2488
+	system "Castor"
+		government "Deep Federation"
+		fleet "Small Old Era Merchants" 4000
+		fleet "Large Old Era Merchants" 3000
+		fleet "Terran Union" 1000
+	planet "Geminus"
+		remove attributes uninhabited
+		description `Geminus, although not the most hospitable of worlds, is a young enough planet that large stores of iron, titanium, and other metals are easily accessible near the surface. For that reason, it has recently been colonized by the Terran Union as a military outpost.`
+		description `	The constant volcanic activity leaves the planet perpetually shrouded in clouds of ash and fog, so that being outside means being in a twilight haze with low visibility.`
+		spaceport `The spaceport is not terribly pretty, but is functional and efficient. Each of the wide hallways is marked out like a road, with space in the center for electric carts carrying cargo, while pedestrians are relegated to the edges.`
+		outfitter "Deep Ammo"
+		outfitter "Betelgeuse Ammo"
+		outfitter "Terran Union Advanced"
+		outfitter "Military"
+		shipyard "Basic Ships"
+		shipyard "Terran Navy"
+		security 0.9
+		tribute 2700
+			threshold 10000
+			fleet "Large Terran Union" 12

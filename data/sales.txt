@@ -322,3 +322,12 @@ outfitter "Local Outfits"
 	"Fuel Pod (*)"
 	"N1 Nuclear Thruster (*)"
 	"N1 Nuclear Steering (*)"
+
+
+
+shipyard "Terran Navy"
+	"Rainmaker (*)"
+	"Gunboat (*)"
+	"Lance (*)"
+	"Surveillance Drone (*)"
+	"Frigate (*)"

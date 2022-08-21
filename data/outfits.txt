@@ -1429,8 +1429,8 @@ outfit "N1 Nuclear Thruster (*)"
 	"thrusting energy" 0.3
 	"thrusting heat" 1.1
 	"thrusting fuel" 0.25
-	"flare sprite" "effect/nuclear flare/tiny"
-		"frame rate" 2
+	"flare sprite" "effect/proton impact"
+		"frame rate" 15
 	"flare sound" "atomic small"
 	description "Nuclear engines are a dying breed of engine. Once, they were hailed as the pinnacle of engineering. Now, however, they are more than four hundred years old, and are rapidly being replaced by the more efficient and faster improving ion and plasma engines, which don't need fuel to run."
 
@@ -1445,8 +1445,8 @@ outfit "N1 Nuclear Steering (*)"
 	"turning energy" 0.2
 	"turning heat" 0.7
 	"turning fuel" 0.25
-	"steering flare sprite" "effect/nuclear flare/tiny"
-		"frame rate" 2
+	"steering flare sprite" "effect/proton impact"
+		"frame rate" 15
 	"steering flare sound" "atomic small"
 	description "If you're short on money but have plenty of fuel and energy to burn and don't have heat troubles, you can purchase a set of nuclear thrusters. You may also want to invest in a ramscoop..."
 

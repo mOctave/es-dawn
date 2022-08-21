@@ -913,8 +913,8 @@ mission "Colonist escort [Cornucopia]"
 			names "civilian"
 			variant
 				"Star Queen" 3
-				"Hauler III" 4
-				"Hauler II" 2
+				"Hauler III (*)" 4
+				"Hauler II (*)" 2
 				"Hauler III (Tanker)"
 	npc
 		government "Terran Union"
@@ -935,14 +935,12 @@ mission "Colonist escort [Cornucopia]"
 		personality
 			confusion 20
 			coward opportunistic
-		ship "Mule" "Bane of Colonists"
+		ship "Leviathan" "Bane of Colonists"
 		system destination
 		fleet
 			names "pirate"
 			variant
-				"Gunboat" 2
-				"Berserker" 6
-				"Rainmaker"
+				"Berserker" 2
 	on accept
 		event "Kappa Centauri colonized"
 		event "plot course: Colonist escort [Cornucopia]"
@@ -991,8 +989,8 @@ mission "Colonist escort [Follower]"
 			variant
 				"Star Queen" 2
 				"Shuttle" 3
-				"Hauler III" 2
-				"Hauler II"
+				"Hauler III (*)" 2
+				"Hauler II (*)"
 				"Scout"
 	npc
 		government "Deep Federation"
@@ -1054,8 +1052,8 @@ mission "Colonist escort [Haze]"
 			variant
 				"Star Queen"
 				"Shuttle" 5
-				"Hauler III" 2
-				"Hauler II"
+				"Hauler III (*)" 2
+				"Hauler II (*)"
 	npc
 		government "Deep Federation"
 		personality
@@ -1094,7 +1092,67 @@ mission "Colonist escort [Haze]"
 		"reputation: Deep Federation" >?= 3
 		"colony missions complete" >?= 1
 
-# Early colony missions: Cornucopia (I) √, Follower (DF) √, Deep-*Special chain* (-), Haze (DF) √, Geminus (TU), Hope-*High risk* (I), Bivrost (DF)
+
+mission "Colonist escort [Geminus]"
+	name "Escort colonists to <planet>"
+	job
+	description "Join a convoy escorting colonists to <destination> for <payment>."
+	to offer
+		random < 80
+		not "event: Castor colonized"
+	source "Midgard"
+	destination "Geminus"
+	npc accompany save
+		government "Terran Union"
+		personality
+			confusion 30
+			timid frugal escort launching
+		ship "Star Queen" "Bringer of Peace"
+		fleet
+			names "civilian"
+			variant
+				"Star Queen"
+				"Shuttle" 5
+				"Hauler III (*)" 2
+				"Hauler II (*)"
+	npc
+		government "Deep Federation"
+		personality
+			confusion 10
+			heroic opportunistic escort launching
+		ship "Frigate" "T.U.S. Ecuador"
+		fleet
+			names "terran union small"
+			variant
+				"Gunboat" 2
+				"Rainmaker"
+				"Berserker" 2
+	
+	npc
+		government "Pirate"
+		personality
+			confusion 10
+			coward opportunistic
+		ship "Leviathan" "Fallen Angel"
+		system destination
+		fleet
+			names "bounty hunter"
+			variant
+				"Berserker" 3
+	on accept
+		event "Castor colonized"
+	on visit
+		dialog "You have arrived at <destination>, but you have left the colonists behind!"
+	on fail
+		dialog "You have failed to escort all the colonists safely to <destination>....."
+		"reputation: Terran Union" <?= 1
+	on complete
+		payment 100000
+		dialog "You arrive at <destination> with the colonist convoy, and wish the colonists good luck. They pay you <payment> in return."
+		"reputation: Terran Union" >?= 3
+		"colony missions complete" >?= 1
+
+# Early colony missions: Cornucopia (I) √, Follower (DF) √, Deep-*Special chain* (-), Haze (DF) √, Geminus (TU) √, Hope-*High risk* (I), Bivrost (DF)
 
 # Far south colony missions (Offered from Cornucopia, requires either Hope or Deep mission) (I): Poisonwood, Lichen, Solace
 
