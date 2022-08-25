@@ -1,0 +1,345 @@
+# ------------------------------------------------------------------------- #
+#	es-dawn: A plugin for endless sky providing an alternate, and much
+#	earlier, storyline.
+#	Copyright © 2022 mOctave
+# ------------------------------------------------------------------------- #
+#	This program is free software: you can redistribute it and/or modify
+#	it under the terms of the GNU General Public License as published by
+#	the Free Software Foundation, either version 3 of the License, or
+#	(at your option) any later version.
+# ------------------------------------------------------------------------- #
+#	This program is distributed in the hope that it will be useful,
+#	but WITHOUT ANY WARRANTY; without even the implied warranty of
+#	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#	GNU General Public License for more details.
+# ------------------------------------------------------------------------- #
+#	You should have received a copy of the GNU General Public License
+#	along with this program.  If not, see <https://www.gnu.org/licenses/>.
+# ------------------------------------------------------------------------- #
+
+mission "Colonist escort [Cornucopia]"
+	name "Escort colonists to <planet>"
+	job
+	description "Join a convoy escorting colonists to <destination> for <payment>."
+	to offer
+		random < 80
+		not "event: Kappa Centauri colonized"
+	source "Relic"
+	destination "Cornucopia"
+	npc accompany save
+		government "Independent (Old Era)"
+		personality
+			confusion 35
+			timid frugal escort launching
+		ship "Star Queen (*)" "Pegasus Queen"
+		fleet
+			names "civilian"
+			variant
+				"Star Queen (*)" 3
+				"Hauler III (*)" 4
+				"Hauler II (*)" 2
+				"Hauler III (Tanker)"
+	npc
+		government "Terran Union"
+		personality
+			confusion 10
+			heroic opportunistic escort launching
+		ship "Leviathan (*)" "T.U.S. Loch Ness"
+		fleet
+			names "terran capital"
+			fighters "terran fighter"
+			variant
+				"Frigate (*)"
+				"Gunboat (*)" 3
+				"Rainmaker (*)" 2
+	
+	npc
+		government "Pirate"
+		personality
+			confusion 20
+			coward opportunistic
+		ship "Leviathan (*)" "Bane of Colonists"
+		system destination
+		fleet
+			names "pirate"
+			variant
+				"Berserker (*)" 2
+	on accept
+		event "Kappa Centauri colonized"
+		event "plot course: Colonist escort [Cornucopia]"
+	on visit
+		dialog "You have arrived at <destination>, but you have left the colonists behind!"
+	on fail
+		dialog "You have failed to escort all the colonists safely to <destination>....."
+		"reputation: Independent (Old Era)" <?= 1
+	on complete
+		payment 385000
+		dialog "You arrive at <destination> with the colonist convoy, and wish the colonists good luck. They pay you <payment> in return."
+		"reputation: Independent (Old Era)" >?= 3
+		"reputation: Terran Union" >?= 1
+		"colony missions complete" >?= 1
+
+event "plot course: Colonist escort [Cornucopia]"
+	visit Vega
+	visit Menkent
+	visit Rutilicus
+	visit Holeb
+	visit Alioth
+	visit Wei
+	visit Kornephoros
+	visit Aldhibain
+	visit Alniyat
+	visit Pherkad
+	visit "Kappa Centauri"
+
+mission "Colonist escort [Follower]"
+	name "Escort colonists to <planet>"
+	job
+	description "Join a convoy escorting colonists to <destination> for <payment>."
+	to offer
+		random < 80
+		not "event: Alphard colonized"
+	source "Valhalla"
+	destination "Follower"
+	npc accompany save
+		government "Deep Federation"
+		personality
+			confusion 35
+			timid frugal escort launching
+		ship "Bactrian (*)" "Soaring Elephant"
+		fleet
+			names "civilian"
+			variant
+				"Star Queen (*)" 2
+				"Shuttle (*)" 3
+				"Hauler III (*)" 2
+				"Hauler II (*)"
+				"Scout (*)"
+	npc
+		government "Deep Federation"
+		personality
+			confusion 10
+			heroic opportunistic escort launching
+		ship "Bactrian (*)" "D.S.S. Idech"
+		fleet
+			names "deep"
+			fighters "deep fighter"
+			variant
+				"Aerie (*)" 3
+				"Dagger (*)" 6
+				"Berserker (*)" 3
+	
+	npc
+		government "Pirate"
+		personality
+			confusion 10
+			coward opportunistic
+		ship "Leviathan (*)" "Demonic Hireling"
+		system destination
+		fleet
+			names "bounty hunter"
+			variant
+				"Gunboat (*)" 2
+				"Rainmaker (*)"
+	on accept
+		event "Alphard colonized"
+	on visit
+		dialog "You have arrived at <destination>, but you have left the colonists behind!"
+	on fail
+		dialog "You have failed to escort all the colonists safely to <destination>....."
+		"reputation: Deep Federation" <?= 1
+	on complete
+		payment 145000
+		dialog "You arrive at <destination> with the colonist convoy, and wish the colonists good luck. They pay you <payment> in return."
+		"reputation: Deep Federation" >?= 3
+		"colony missions complete" >?= 1
+
+
+mission "Colonist escort [Haze]"
+	name "Escort colonists to <planet>"
+	job
+	description "Join a convoy escorting colonists to <destination> for <payment>."
+	to offer
+		random < 80
+		not "event: Dubhe colonized"
+	source "Midgard"
+	destination "Haze"
+	npc accompany save
+		government "Deep Federation"
+		personality
+			confusion 35
+			timid frugal escort launching
+		ship "Bactrian (*)" "Valiant Queen"
+		fleet
+			names "civilian"
+			variant
+				"Star Queen (*)"
+				"Shuttle (*)" 5
+				"Hauler III (*)" 2
+				"Hauler II (*)"
+	npc
+		government "Deep Federation"
+		personality
+			confusion 10
+			heroic opportunistic escort launching
+		ship "Bactrian (*)" "D.S.S. Venturi"
+		fleet
+			names "deep"
+			fighters "deep fighter"
+			variant
+				"Aerie (*)" 4
+				"Dagger (*)" 8
+	
+	npc
+		government "Pirate"
+		personality
+			confusion 10
+			coward opportunistic
+		ship "Leviathan (*)" "Fangs of Titanium"
+		system destination
+		fleet
+			names "bounty hunter"
+			variant
+				"Gunboat (*)" 2
+				"Rainmaker (*)"
+	on accept
+		event "Dubhe colonized"
+	on visit
+		dialog "You have arrived at <destination>, but you have left the colonists behind!"
+	on fail
+		dialog "You have failed to escort all the colonists safely to <destination>....."
+		"reputation: Deep Federation" <?= 1
+	on complete
+		payment 120000
+		dialog "You arrive at <destination> with the colonist convoy, and wish the colonists good luck. They pay you <payment> in return."
+		"reputation: Deep Federation" >?= 3
+		"colony missions complete" >?= 1
+
+
+mission "Colonist escort [Geminus]"
+	name "Escort colonists to <planet>"
+	job
+	description "Join a convoy escorting colonists to <destination> for <payment>."
+	to offer
+		random < 80
+		not "event: Castor colonized"
+	source "Midgard"
+	destination "Geminus"
+	npc accompany save
+		government "Terran Union"
+		personality
+			confusion 30
+			timid frugal escort launching
+		ship "Star Queen (*)" "Bringer of Peace"
+		fleet
+			names "civilian"
+			variant
+				"Star Queen (*)"
+				"Shuttle (*)" 5
+				"Hauler III (*)" 2
+				"Hauler II (*)"
+	npc
+		government "Deep Federation"
+		personality
+			confusion 10
+			heroic opportunistic escort launching
+		ship "Frigate (*)" "T.U.S. Ecuador"
+		fleet
+			names "terran union small"
+			variant
+				"Gunboat (*)" 2
+				"Rainmaker (*)"
+				"Berserker (*)" 2
+	
+	npc
+		government "Pirate"
+		personality
+			confusion 10
+			coward opportunistic
+		ship "Leviathan (*)" "Fallen Angel"
+		system destination
+		fleet
+			names "bounty hunter"
+			variant
+				"Berserker (*)" 3
+	on accept
+		event "Castor colonized"
+	on visit
+		dialog "You have arrived at <destination>, but you have left the colonists behind!"
+	on fail
+		dialog "You have failed to escort all the colonists safely to <destination>....."
+		"reputation: Terran Union" <?= 1
+	on complete
+		payment 100000
+		dialog "You arrive at <destination> with the colonist convoy, and wish the colonists good luck. They pay you <payment> in return."
+		"reputation: Terran Union" >?= 3
+		"colony missions complete" >?= 1
+
+
+mission "Colonist escort [Bivrost]"
+	name "Escort colonists to <planet>"
+	job
+	description "Join a convoy escorting colonists to <destination> for <payment>."
+	to offer
+		random < 80
+		not "event: Markeb colonized"
+	source "Asgard"
+	destination "Haze"
+	npc accompany save
+		government "Deep Federation"
+		personality
+			confusion 35
+			timid frugal escort launching
+		fleet
+			names "civilian"
+			variant
+				"Star Queen (*)" 2
+				"Shuttle (*)" 8
+				"Hauler III (*)" 2
+				"Hauler II (*)"
+	npc
+		government "Deep Federation"
+		personality
+			confusion 10
+			heroic opportunistic escort launching
+		fleet
+			names "deep"
+			fighters "deep fighter"
+			variant
+				"Aerie (*)" 4
+				"Dagger (*)" 8
+				"Berserker (*)" 3
+	
+	npc
+		government "Pirate"
+		personality
+			confusion 10
+			coward opportunistic
+		ship "Bactrian (*)" "Lightningstruck"
+		system destination
+		fleet
+			names "pirate"
+			variant
+				"Berserker (*)" 4
+	on accept
+		event "Markeb colonized"
+	on visit
+		dialog "You have arrived at <destination>, but you have left the colonists behind!"
+	on fail
+		dialog "You have failed to escort all the colonists safely to <destination>....."
+		"reputation: Deep Federation" <?= 2
+	on complete
+		payment 105000
+		dialog "You arrive at <destination> with the colonist convoy, and wish the colonists good luck. They pay you <payment> in return."
+		"reputation: Deep Federation" >?= 4
+		"colony missions complete" >?= 1
+
+# Early colony missions: Cornucopia (I) √, Follower (DF) √, Deep-*Special chain* (-), Haze (DF) √, Geminus (TU) √, Hope-*High risk* (I), Bivrost (DF)
+
+# Far south colony missions (Offered from Cornucopia, requires either Hope or Deep mission) (I): Poisonwood, Lichen, Solace
+
+# Deep colony missions (Offered from Haze, and requires either Follower or Bivrost mission): Ingot (DF)
+
+# Late colony missions (require 5 other missions): Longjump (I), Maelstrom (B), Maker (TU), New Switzerland (TU), Shangri-La (I), Tinker (TU or S)
+
+# Planets in Green Belt: New Greenland (capital), New Boston, New Iceland, New Tibet, Dustmaker, Tundra, New Wales

@@ -2411,7 +2411,8 @@ event "Castor colonized"
 		government "Deep Federation"
 		fleet "Small Old Era Merchants" 4000
 		fleet "Large Old Era Merchants" 3000
-		fleet "Terran Union" 1000
+		fleet "Small Terran Union" 1000
+		fleet "Large Terran Union" 2000
 	planet "Geminus"
 		remove attributes uninhabited
 		description `Geminus, although not the most hospitable of worlds, is a young enough planet that large stores of iron, titanium, and other metals are easily accessible near the surface. For that reason, it has recently been colonized by the Terran Union as a military outpost.`
@@ -2427,3 +2428,21 @@ event "Castor colonized"
 		tribute 2700
 			threshold 10000
 			fleet "Large Terran Union" 12
+
+
+event "Markeb colonized"
+#	date 2 23 2488
+	system "Markeb"
+		government "Deep Federation"
+		fleet "Small Old Era Merchants" 1000
+		fleet "Large Old Era Merchants" 1500
+		fleet "Deep Federation" 1500
+	planet "Bivrost"
+		remove attributes uninhabited
+		description `Bivrost is the one planet in the Deep where heavy metals are relatively abundant. For this reason, it has recently become a major mining colony of the Deep Federation. Mining equipment is all around you, most of it being hauled out to some worksite or another. To your inexperienced eye, it looks like absolute chaos, but you suspect that at least some of the people involved have some understanding of what is going on here.`
+		spaceport `The spaceport consits of six slabs of concrete and several buildings. A large fuel tank stands in the center of the ring of landing pads, which seems awfully risky, but it also makes refueling ships faster and easier. A small village has sprung up around the spaceport, and it appears that just about everything can be found for sale here.`
+		outfitter "Deep Basic"
+		security 0.3
+		tribute 1200
+			threshold 5000
+			fleet "Deep Federation" 10
