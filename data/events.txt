@@ -1223,6 +1223,9 @@ event "remap universe"
 		description `Chiron is the only planet outside the solar system that was colonized by humanity prior to the discovery of the hyperdrive. With the invention of the hyperdrive, its population has grown and it has become very prosperous.`
 		description `	Although Earth still has the most prestigious universities in the galaxy, Chiron has become the de facto leader of the higher education industry, catering to those who value excellent teaching more highly than an illustrious name. As a result, off-world students form a noticeable fraction of the population.`
 		spaceport `The spaceport was built back when Chiron was first settled, and was placed in a desert region, far from where people would want to live, so that they would not be as affected by the fallout from the nuclear propulsion that was used in the first, pre-hyperspace starships.`
+		outfitter "TU Basics"
+		outfitter "Common Outfits"
+		outfitter "Core Starcraft Basics"
 		tribute 4400
 			threshold 7500
 			fleet "Large Terran Union" 14
@@ -1301,6 +1304,9 @@ event "remap universe"
 		attributes "near earth" urban tourism
 		description `The ancestral home world of humanity, Earth has a population three times that of any other inhabited planet. Sprawling cities cover large portions of its surface, many of them overcrowded and dangerous. Some people work to scrape together enough money to leave, while at the same time others, born on distant worlds, make a pilgrimage of sorts to see this planet that once cradled the entirety of the human species.`
 		description `	Earth is also the capital of the Terrran Union. Representative government becomes complicated when one planet has a greater population than a hundred planets elsewhere, since of the twenty-five members of the senate, seven members are elected by the people of Earth.`
+		outfitter "Common Outfits"
+		outfitter "TU Advanced"
+		outfitter "Core Starcraft Basics"
 		security 0.4
 		tribute 8000
 			threshold 15000
@@ -1412,6 +1418,9 @@ event "remap universe"
 		attributes "near earth" oil factory
 		description `Terraforming can change many things, but it cannot fix low gravity. Geyser was settled in the very first wave of space colonization, before refueling depots were available anywhere but Earth itself, so the only systems that could maintain trade with Earth were those that were only a few jumps away. Today, most of the industry centers around oil drilling and manufacturing, and the remaining workers are those who are either too poor to leave or who still believe that Geyser is the beautiful planet it once was.`
 		spaceport `	The spaceport on Geyser was built two or three centuries ago, and, although it is still intact and bustling with activity, every part of it looks old and weathered. You get the feeling that it is nearing the end of its allotted lifespan, but there is no sign of any major repairs planned for the future.`
+		outfitter "Deep Ammo"
+		outfitter "Basic Outfits"
+		outfitter "TU Basics"
 		tribute 1500
 			threshold 4000
 			fleet "Large Terran Union" 12
@@ -1482,6 +1491,9 @@ event "remap universe"
 		
 	planet "Hermes"
 		attributes paradise research medical
+		outfitter "Betelgeuse Basics"
+		outfitter "Deep Ammo"
+		outfitter "TU Basics"
 		security 0.95
 		tribute 1400
 			threshold 10000
@@ -1955,6 +1967,7 @@ event "remap universe"
 		description `	However, this would not last. In less than fifty years, the colonies had spread to much more favorable planets, and Relic was left behind by most human development.`
 		spaceport `The spaceport here is located in the only recognized city on Relic, but it has fallen into disrepair in recent years, and, since it is far larger than it needs to be for the amount of traffic it gets, it will likely be replaced by a much smaller spaceport soon.`
 		security 0.3
+		outfitter "TU Ammo"
 		tribute 1100
 			threshold 4000
 			fleet "Small Terran Union" 15
@@ -1963,6 +1976,9 @@ event "remap universe"
 		description `Reunion is one of the most Earth-like planets found by the early settlers, all the way down to its moon and tides. It has grown into a mostly urban world, which supplies manufactured goods of all sorts to the neighboring systems.`
 		description `	Local politics are unusually lively for a Republic world, to the point where a seat in the local legislature is often more hotly contested than the single seat in the Senate that the planet gets. Topics of debate include trade and taxation, of course, but also seemingly fringe issues like biodiversity regulations for city green space. It may be that a world with no terraforming needs is focusing instead on tweaking society itself.`
 		spaceport `The spaceport on Reunion was never deigned to last: it might survive another century, but then it will need to be torn down. Probably less than a century, actually, considering the sheer number of people here trying to sell you stuff.`
+		outfitter "Core Starcraft Advanced"
+		outfitter "Betelgeuse Basics"
+		outfitter "TU Ammo"
 		security 0.4
 		tribute 3100
 			threshold 6000
