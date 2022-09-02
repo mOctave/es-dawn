@@ -334,7 +334,55 @@ mission "Colonist escort [Bivrost]"
 		"reputation: Deep Federation" >?= 4
 		"colony missions complete" >?= 1
 
-# Early colony missions: Cornucopia (I) √, Follower (DF) √, Deep-*Special chain* (-), Haze (DF) √, Geminus (TU) √, Hope-*High risk* (I), Bivrost (DF)
+mission "Investigate Deep"
+	description "Investigate <stopover> and return to <planet> for payment."
+	to offer
+		random < 40
+		"colony missions complete" > 0
+	source
+		government "Terran Union"
+	stopover "Deep"
+	destination "Earth"
+	on offer
+		conversation
+			`	As you are looking around the spaceport, you are approached by a government official: a tall man with an air of purpose and authority wearing the uniform of a Terran Union military officer.`
+			`	"Captain <last>," he says, as he comes to stand in front of you, "We see that you have been helping the exploration effort and have a job offer for you. We're working on a survey of the Dirt Belt, South, and Rim, and it has come to our attention that the planet Deep has not been surveyed recently. If you are willing, we would appreciate you flying down to Kornephoros and having a look around."`
+			choice
+				`	"Sure, I'll do that. What about payment?"`
+					goto payment
+				`	"Wait, isn't Deep the planet where the colony vanished?"`
+					goto gone
+				`	"I'll have a look around."`
+			label glad
+			`	"Glad to hear it. Return to Earth once you've performed a thorough scan, and you'll recieve payment."`
+				accept
+			label payment
+			`	"You'll be paid. How much depends on how good a job you do."`
+			choice
+				`	"Alright, I'll do the survey."`
+				`	"Sorry, I don't accept jobs without guarantee of payment."`
+					declined
+			`	"Glad to hear it. Return to Earth with the data once you're done."`
+				accept
+			label gone
+			`	"That is the main reason we're interested in Deep," the officer says, "There was a thriving colony on it a couple hundred years ago. Eventually we lost contact with it, and when we came back a couple of years ago, there was no sign of anything accept for the ruins of the old spaceport. We'd like to know what destroyed the colony, and whether or not it would be safe to recolonize it."`
+			choice
+				`	"That sounds like a worthy cause. I'll take the job."`
+					goto glad
+				`	"What about payment?"`
+					goto payment
+				`	"Sorry, this seems way too high-risk for my liking."`
+					decline
+	on decline
+		"reputation: Terran Union" <?= 1
+	on complete
+		payment 30000
+		"reputation: Terran Union" >?= 2
+		"reputation: Independent (Old Era)" >?= 1
+
+# Add multiple possible missions on Deep, each giving you different results and final payment?
+
+# Early colony missions: Cornucopia (I) √, Follower (DF) √, Deep-*Special chain* (-), Haze (DF) √, Geminus (TU) √, Hope-*High risk* (I), Bivrost (DF) √
 
 # Far south colony missions (Offered from Cornucopia, requires either Hope or Deep mission) (I): Poisonwood, Lichen, Solace
 

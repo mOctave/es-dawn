@@ -1008,6 +1008,9 @@ event "remap universe"
 		remove shipyard
 		shipyard "Basic Ships"
 		shipyard "Betelgeuse Basics"
+		outfitter "Common Outfits"
+		outfitter "Pirate Outfits"
+		outfitter "Betelgeuse Basics"
 		"required reputation" 0
 		bribe 0.05
 		security 0.4
@@ -1114,6 +1117,7 @@ event "remap universe"
 		attributes deep factory urban rich
 		description `Asgard was one of the first worlds to be settled in the Deep. Although it is quite near the pirate system of Suhail, it is still very prosperous, and may one day rival even Valhalla.`
 		description `	This is also the home of Deep Sky, a manufacturing firm that produces a wide variety of expensive and useful starship equipment, making its money off of the fact that it is the official outfitter of the Deep.`
+		remove outfitter
 		outfitter "Common Outfits"
 		outfitter "Deep Advanced"
 		tribute 3500
@@ -1223,6 +1227,7 @@ event "remap universe"
 		description `Chiron is the only planet outside the solar system that was colonized by humanity prior to the discovery of the hyperdrive. With the invention of the hyperdrive, its population has grown and it has become very prosperous.`
 		description `	Although Earth still has the most prestigious universities in the galaxy, Chiron has become the de facto leader of the higher education industry, catering to those who value excellent teaching more highly than an illustrious name. As a result, off-world students form a noticeable fraction of the population.`
 		spaceport `The spaceport was built back when Chiron was first settled, and was placed in a desert region, far from where people would want to live, so that they would not be as affected by the fallout from the nuclear propulsion that was used in the first, pre-hyperspace starships.`
+		remove outfitter
 		outfitter "TU Basics"
 		outfitter "Common Outfits"
 		outfitter "Core Starcraft Basics"
@@ -1289,6 +1294,10 @@ event "remap universe"
 	planet "Delve"
 		attributes core mining pirate
 		description `Delve is a world of towering mountains and valleys so steep that some slopes never see the light of the sun, where snow and ice remain on the topmost peaks year-round. A major pirate mining operation exists on the planet, which provides most of the metals for this region of space, as well as a fairly large defensive pirate fleet. Some of the mines are as large as a city, and in fact many of the mining cities are under ground, built in sections of old mines that have long since run out of useful metals. With all the mines and underground cities reliant on mechanical ventilation from the surface, the miners live in constant fear of two things: cave-ins, and power failures.`
+		remove outfitter
+		outfitter "Local Outfits"
+		outfitter "Pirate Outfits"
+		outfitter "Core Starcraft Basics"
 		security 0.1
 		tribute 1200
 			threshold 5000
@@ -1304,6 +1313,7 @@ event "remap universe"
 		attributes "near earth" urban tourism
 		description `The ancestral home world of humanity, Earth has a population three times that of any other inhabited planet. Sprawling cities cover large portions of its surface, many of them overcrowded and dangerous. Some people work to scrape together enough money to leave, while at the same time others, born on distant worlds, make a pilgrimage of sorts to see this planet that once cradled the entirety of the human species.`
 		description `	Earth is also the capital of the Terrran Union. Representative government becomes complicated when one planet has a greater population than a hundred planets elsewhere, since of the twenty-five members of the senate, seven members are elected by the people of Earth.`
+		remove outfitter
 		outfitter "Common Outfits"
 		outfitter "TU Advanced"
 		outfitter "Core Starcraft Basics"
@@ -1418,6 +1428,7 @@ event "remap universe"
 		attributes "near earth" oil factory
 		description `Terraforming can change many things, but it cannot fix low gravity. Geyser was settled in the very first wave of space colonization, before refueling depots were available anywhere but Earth itself, so the only systems that could maintain trade with Earth were those that were only a few jumps away. Today, most of the industry centers around oil drilling and manufacturing, and the remaining workers are those who are either too poor to leave or who still believe that Geyser is the beautiful planet it once was.`
 		spaceport `	The spaceport on Geyser was built two or three centuries ago, and, although it is still intact and bustling with activity, every part of it looks old and weathered. You get the feeling that it is nearing the end of its allotted lifespan, but there is no sign of any major repairs planned for the future.`
+		remove outfitter
 		outfitter "Deep Ammo"
 		outfitter "Basic Outfits"
 		outfitter "TU Basics"
@@ -1475,6 +1486,8 @@ event "remap universe"
 		attributes deep mining volcanic pirate
 		description `Helheim is not a pleasant place. Much of the surface is volcanic, pockmarked with craters and steam vents leading deep into the planet's crust. The air is slightly caustic, but breathable. However, it is also a world rich in easily accessible deposits of nickel, aluminum, and magnesium. The mining industry here has been booming for centuries, and in all of the Deep it is the one world where work is never hard to find - if you are willing to face the health risks and the lack of green and growing things, along with the overbearing presence of pirate gangs.`
 		spaceport `The spaceport on Helheim matches the rest of the planet, looking like a scene from a bad film depicting the castle of the powerful villain. The effect suffers somewhat from the fact that it is all inside a dome, but not too much...`
+		remove outfitter
+		outfitter "Pirate Outfits"
 		security 0.1
 		tribute 400
 			threshold 2000
@@ -1484,6 +1497,10 @@ event "remap universe"
 		attributes core factory urban
 		description `Hephaestus is home to the Core Starcraft Parts Corporation, a company with a large name and an even larger bureaucatic organization structure. No one really knows how the company keeps going, but as long as the spacecraft parts keep coming, no one really seems to care.`
 		spaceport `The spaceport consists of a long row of hangars of all different sizes, with shops and warehouse space in between. In many of the hangars you pass, mechanics are busy installing new parts or making repairs to old ones. The flash of arc welders and the squeal of bolt drivers and rivet guns is everywhere. Above the hangars is a tier of supply rooms with all different sorts of ship outfits on display, rows and rows of gleaming, identical parts. Robotic gantries swing overhead at frightening speeds, stocking and fetching parts. It serves as both a functional storage space and a massive advertisement for CSPC equipment.`
+		remove outfitter
+		outfitter "Core Starcraft Advanced"
+		outfitter "Betelgeuse Basics"
+		outfitter "TU Basics"
 		security 0.6
 		tribute 2400
 			threshold 6000
@@ -1608,6 +1625,7 @@ event "remap universe"
 		description `In the early days of space travel, back when engines were still so inefficient that escaping from a planet's gravity was costly and difficult, an enormous shipyard was built on the Moon where asteroids, harvested from the asteroid belt, were mined for raw materials for ships.`
 		description `	Today, that facility is still the premier shipyard in the Terran Union, and the only place where you can buy the Union's military ships.`
 		spaceport `The spaceport is rudimentary, although the main pressurized dome of the facility was recently replaced. It is likely that the government plans to replace the spaceport in a couple of decades.Everything is so ramshackle that it feels almost like you have stepped back in time to the early days of human space flight. Perhaps that's what the tourists come here to experience.`
+		remove outfitter
 		outfitter "Common Outfits"
 		outfitter "Betelgeuse Basics"
 		outfitter "Core Starcraft Basics"
@@ -1633,6 +1651,11 @@ event "remap universe"
 	planet "Mainsail"
 		attributes paradise rich pirate
 		description `Mainsail is a water world: although there are some settlements on dry land, the largest cities are floating, artificial islands, which travel between hemispheres over the course of the year pursuing the most ideal weather. Other, smaller islands are privately owned by single families, corporations, or marine pirates. Mainsail is home to the last group of old-fashioned pirates in the galaxy, bandits with fleets of motor boats or even old-fashioned sailing vessels that are known to launch raids against the city-ships.`
+		remove outfitter
+		outfitter "Basic Outfits"
+		outfitter "Betelgeuse Basics"
+		outfitter "TU Basics"
+		outfitter "Local Outfits"
 		security 0.3
 		tribute 1400
 			threshold 3000
@@ -1676,6 +1699,7 @@ event "remap universe"
 		description `Midgard is a world with as much geographic diversity as Earth itself: mountains, tundra, desert, oceans, marshes, plains. It was the second world in the Deep to be settled, nearly two centuries ago. It is now home to dozens of major metropolitan areas and a population of over almost a billion. Although a select few live outside the cities and work in farming or ranching, the vast majority of people here have jobs in manufacturing.`
 		description `	Food, fashion, and entertainment here all strike you as out of pace with broader galactic culture. The deep independent history of the planet makes it less likely to simply follow the latest Earth trends as the more recent colonies do.`
 		spaceport `The spaceport is located in the center of the city of New Reykjavik, a bustling metropolis which is also Midgard's center of government. The port was built quite recently, and its architecture is much more conservative than other ports in the Deep: instead of domes and rounded, wavy surfaces, it is a collection of tall, square granite towers, connected by bridges at various levels. Most of the hotels and restaurants are in a central tower, slightly higher than the others. There is no central marketplace; instead, you can just buy or sell cargo from a computer terminal and a robotic forklift will arrive at your docking bay to carry it.`
+		remove outfitter
 		outfitter "Common Outfits"
 		outfitter "Deep Advanced"
 		tribute 3000
@@ -1725,6 +1749,10 @@ event "remap universe"
 	planet "New Boston"
 		description `New Boston is a completely unremarkable world. Most of the land is wet and marshy, and the coastal regions are prone to flooding. Some food crops are grown here, but most of the farmers instead plant flax and jute, which grow well in wet soil and are used to make linen and burlap cloth. The textile mills are hot and poorly ventilated, but they offer higher and more reliable income than farming.`
 		spaceport `The spaceport is fairly new, but already the concrete pads, designed to last for centuries, are sinking into the marshy soil. Not surprisingly, the permanent market was abandoned only a decade after its construction when heavy rains caused the floor to disappear into the ground. Now, the market is a large tent, with poles that are long enough to reach down to the bottom of the layer of swampy soil. And, some enterprising local mechanics have set up not only a repair shop and outfitter, but also a shipyard with several small, refurbished ships for sale.`
+		remove outfitter
+		outfitter "Basic Outfits"
+		outfitter "Local Outfits"
+		outfitter "TU Ammo"
 		tribute 500
 			threshold 4000
 			fleet "Independent Patrols" 10
@@ -1749,6 +1777,8 @@ event "remap universe"
 	
 	planet "New Greenland"
 		description `New Greenland was first settled about ninety years ago, at the peak of the "Turf Wars" era where most planets were controlled by powerful corporations and their struggles often turned into outright warfare with privately owned fleets and armies. The people who came to New Greenland were looking for a world so marginal and undesirable that they could live here in peace without being caught in the crossfire. The locals here grow food in greenhouses and specialize in making warm winter clothing, which is this planet's only export.`
+		remove outfitter
+		outfitter "Local Outfits"
 		security 0.1
 		tribute 500
 			threshold 3000
@@ -1814,6 +1844,7 @@ event "remap universe"
 	planet "Nifel"
 		description `Nifel is a cold world, with summers too short to grow most crops, and very little indigenous wildlife aside from thick-furred mammals, and some migratory birds that travel from one hemisphere to the other every year.`
 		description `	Nifel is also the center of medical science in the Deep Federation, with its prestigious medical academy providing quite the boost to the economy.`
+		remove outfitter
 		outfitter "Basic Outfits"
 		outfitter "Deep Ammo"
 		tribute 2000
@@ -1947,6 +1978,12 @@ event "remap universe"
 		attributes north urban factory
 		description `Prime is a very Earth-like ocean world, with a population of over half a billion people. It is home to Betelgeuse Shipyards, and much of the industry on the planet is related to ship-building in one way or another, like refining and working metal, or developing exotic new hull and framing materials. Although some mining is done in more remote regions of the planet, Prime is reliant on shipments of metal and other goods to feed its industries.`
 		spaceport `The spaceport is a large, multi-story building designed to look like a Leviathan, but much larger. It is built mostly of steel and glass, with the sturdy beams and girders that support the building visible on the inside, giving it the look of a ship still in construction, whose interior has not yet been fully fitted out. In nearby hangars, final assembly is being done on ships, some of which have been completed and are now for sale.`
+		remove outfitter
+		outfitter "Betelgeuse Advanced"
+		outfitter "TU Basics"
+		outfitter "Core Starcraft Ammo"
+		outfitter "Deep Ammo"
+		outfitter "Common Outfits"
 		security 0.7
 		tribute 4800
 			threshold 9000
@@ -1976,6 +2013,7 @@ event "remap universe"
 		description `Reunion is one of the most Earth-like planets found by the early settlers, all the way down to its moon and tides. It has grown into a mostly urban world, which supplies manufactured goods of all sorts to the neighboring systems.`
 		description `	Local politics are unusually lively for a Republic world, to the point where a seat in the local legislature is often more hotly contested than the single seat in the Senate that the planet gets. Topics of debate include trade and taxation, of course, but also seemingly fringe issues like biodiversity regulations for city green space. It may be that a world with no terraforming needs is focusing instead on tweaking society itself.`
 		spaceport `The spaceport on Reunion was never deigned to last: it might survive another century, but then it will need to be torn down. Probably less than a century, actually, considering the sheer number of people here trying to sell you stuff.`
+		remove outfitter
 		outfitter "Core Starcraft Advanced"
 		outfitter "Betelgeuse Basics"
 		outfitter "TU Ammo"
@@ -2126,6 +2164,7 @@ event "remap universe"
 		attributes south frontier
 		description `Thule is a mountainous world that was colonized about a hundred years ago. While other colonies established at that time have faded into nonexistence, Thule has flourished. There is an unusal culture here, and the people around you seem very suspicious of you.`
 		spaceport `You have heard rumours that Thule is involved in piracy. Looking at the ships beside yours in the spaceport, the rumours seem more than likely to be true: there are a surprising number of warships parked here, many of which are badly damaged. Leaving your ship behind, you notice that many of those around you are heavily armed, and you even see someone wearing full tactical combat armour who appears to be nothing more than a merchant.`
+		remove outfitter
 		outfitter "Common Outfits"
 	
 	planet "Thunder"
@@ -2178,6 +2217,9 @@ event "remap universe"
 		attributes "dirt belt" oil textiles pirate
 		description `Millions of years ago, this was a warm world, perhaps even tropical. But some cataclysmic event, perhaps a meteor strike or a massive volcanic eruption, altered the planet's atmosphere enough to turn it into the nearly lifeless, frozen planet it is today.`
 		description `	The first settlers came here to drill for the oil trapped deep under the surface, a relic of Tundra's former, more lively days. Instead of refining the oil into plastic, which sells relatively cheap in this region, many of them have become pirates, not out of choice, but out of necessity. The only other possible industry for them would be textiles, but the lack the equipment for such an industry.`
+		remove outfitter
+		outfitter "Pirate Outfits"
+		outfitter "Local Outfits"
 		tribute 200
 			threshold 1000
 			fleet "Old Era Pirate Raid"
@@ -2222,6 +2264,7 @@ event "remap universe"
 		description `Valhalla was the first world to be settled in this region of space, which is known as the Deep. It is rich in natural resources, but all its vast farms and fisheries are insufficient to feed its population of over three billion.`
 		description `	The shipyards of the Deep are located here. The ships designed and built in the Deep are some of the most technologically advanced ships in human space - and the most expensive.`
 		description `	Finally, Valhalla is also the capital of the Deep Federation, the current nation in control of the Deep: both the region and the company.`
+		remove outfitter
 		outfitter "Common Outfits"
 		outfitter "Deep Advanced"
 		outfitter "Military"
@@ -2344,6 +2387,9 @@ event "Green Belt created"
 		attributes "dirt belt" oil textiles
 		description `Millions of years ago, this was a warm world, perhaps even tropical. But some cataclysmic event, perhaps a meteor strike or a massive volcanic eruption, altered the planet's atmosphere enough to turn it into the nearly lifeless, frozen planet it is today.`
 		description `	The first settlers came here to drill for the oil trapped deep under the surface, a relic of Tundra's former, more lively days. With the creation of the Green Belt, the people of Tundra have finally found the equipment to turn the oil they extract into synthetic fabrics, and with it have found a new source of revenue.`
+		remove outfitter
+		outfitter "Basic Outfits"
+		outfitter "Local Outfits"
 		tribute 400
 			threshold 1200
 			fleet "Green Belt" 8
@@ -2369,6 +2415,7 @@ event "Kappa Centauri colonized"
 		description `	From orbit, most of the landmass seems covered with a bizarre pixelated pattern. On approach, this resolves into a vast patchwork of fields and irrigation circles.`
 		spaceport `The spaceport on Cornucopia is a set of massive hangars in the center of a wide-open plain. Before leaving your ship you had to sign several documents regarding the use and disposal of various chemicals used in ship operations, and the department of agriculture requires that any luggage you bring on or off world be submitted to a scan for biological material.`
 		spaceport `	When you leave your hangar, you find yourself in an immense farmers' market, with hundreds of fruits and grains that you do not even know words for. The smell of this world is rich and earthy - you feel like you could almost receive all the nourishment your body needs just by breathing this air.`
+		remove outfitter
 		outfitter "Local Outfits"
 		outfitter ""
 		security 0.1
@@ -2413,6 +2460,7 @@ event "Dubhe colonized"
 		remove attributes uninhabited
 		description `Haze is a world of very small-scale manufacturing. Very few people live on this newly-settled planet, and only about twenty percent of the surface has been mapped in any detail despite numerous overflights.`
 		spaceport `The spaceport here is a flat chunk of basalt that got dropped from the sky. There are no buildings, only a small fuel tank and what looks like a cross between a lean-to and a tepee. Someone standing near the edge of the chunk of basalt waves you down, but makes no more than a cursory glance at your cargo before allowing you to go back to doing whatever you plan to do.`
+		remove outfitter
 		outfitter "Deep Basics"
 		outfitter "Betelgeuse Ammo"
 		security 0.05
@@ -2434,6 +2482,7 @@ event "Castor colonized"
 		description `Geminus, although not the most hospitable of worlds, is a young enough planet that large stores of iron, titanium, and other metals are easily accessible near the surface. For that reason, it has recently been colonized by the Terran Union as a military outpost.`
 		description `	The constant volcanic activity leaves the planet perpetually shrouded in clouds of ash and fog, so that being outside means being in a twilight haze with low visibility.`
 		spaceport `The spaceport is not terribly pretty, but is functional and efficient. Each of the wide hallways is marked out like a road, with space in the center for electric carts carrying cargo, while pedestrians are relegated to the edges.`
+		remove outfitter
 		outfitter "Deep Ammo"
 		outfitter "Betelgeuse Ammo"
 		outfitter "Terran Union Advanced"
@@ -2457,6 +2506,7 @@ event "Markeb colonized"
 		remove attributes uninhabited
 		description `Bivrost is the one planet in the Deep where heavy metals are relatively abundant. For this reason, it has recently become a major mining colony of the Deep Federation. Mining equipment is all around you, most of it being hauled out to some worksite or another. To your inexperienced eye, it looks like absolute chaos, but you suspect that at least some of the people involved have some understanding of what is going on here.`
 		spaceport `The spaceport consits of six slabs of concrete and several buildings. A large fuel tank stands in the center of the ring of landing pads, which seems awfully risky, but it also makes refueling ships faster and easier. A small village has sprung up around the spaceport, and it appears that just about everything can be found for sale here.`
+		remove outfitter
 		outfitter "Deep Basic"
 		security 0.3
 		tribute 1200
