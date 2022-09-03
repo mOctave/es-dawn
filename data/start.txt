@@ -19,7 +19,7 @@
 
 start "dawn dev"
 	name "Dawn of Development"
-	description `As a young child, you always dreamed of becoming an astronaut, once of the breed of intrepid start-trotters who always seem to come back with news of a new planet to settle.`
+	description `As a young child, you always dreamed of becoming an astronaut, one of the breed of intrepid start-trotters who always seem to come back with news of a new planet to settle.`
 	description `	Then, of course, you shifted gears, and started hacking the universe in your quest to develop Dawn of Exploration.`
 	thumbnail "nasa0"
 	date 24 5 2447
@@ -85,7 +85,7 @@ start "dawn dev"
 
 start "dawn"
 	name "Dawn of Exploration"
-	description `As a young child, you always dreamed of becoming an astronaut, once of the breed of intrepid start-trotters who always seem to come back with news of a new planet to settle.`
+	description `As a young child, you always dreamed of becoming an astronaut, one of the breed of intrepid start-trotters who always seem to come back with news of a new planet to settle.`
 	description `	Although such a career was always your dream, it was only recently that you were offered the chance to realize it: your own starship, with which to explore the galaxy.`
 	thumbnail "nasa0"
 	date 24 5 2447
