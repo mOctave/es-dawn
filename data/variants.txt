@@ -649,7 +649,7 @@ ship "Heavy Shuttle" "Heavy Shuttle (*)"
 	description "Betelgeuse Shipyards' Heavy Shuttle has been described as their biggest failure ever. It is a brand-new ship design, but it is disliked by almost all pilots because of how painfully slow it is, making it an easy target for pirates, while still being very expensive."
 
 # Hauler variant for colonization missions
-ship "Hauler III " "Hauler III (Tanker)"
+ship "Hauler III (*)" "Hauler III (Tanker)"
 	add attributes
 		"hull" 400
 		"shields" 500
@@ -658,7 +658,7 @@ ship "Hauler III " "Hauler III (Tanker)"
 	description "This tanker variant of the Hauler III has only a third the normal cargo space, but it has a stronger hull, better shields, and four times the fuel capacity, making it the ship with the highest fuel capacity in human space."
 
 # Hauler variants full of cargo for the Green Belt missions
-ship "Hauler II " "Hauler II (GBI)"
+ship "Hauler II (*)" "Hauler II (GBI)"
 	cargo
 		commodities
 			"Food" 180
@@ -667,7 +667,7 @@ ship "Hauler II " "Hauler II (GBI)"
 			"Industrial" 20
 			"Electronics" 10
 
-ship "Hauler III " "Hauler III (GBI)"
+ship "Hauler III (*)" "Hauler III (GBI)"
 	cargo
 		commodities
 			"Food" 300
