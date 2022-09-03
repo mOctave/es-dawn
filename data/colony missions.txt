@@ -382,7 +382,92 @@ mission "Investigate Deep"
 
 # Add multiple possible missions on Deep, each giving you different results and final payment?
 
-# Early colony missions: Cornucopia (I) √, Follower (DF) √, Deep-*Special chain* (-), Haze (DF) √, Geminus (TU) √, Hope-*High risk* (I), Bivrost (DF) √
+
+mission "Colonist escort [Hope]"
+	name "Escort colonists to <planet>"
+	description "Join a convoy escorting colonists to <destination> for <payment>."
+	to offer
+		random < 80
+		not "event: Wei colonized"
+		"combat rating" > 10
+	source "New Greenland"
+	destination "Hope"
+	npc accompany save
+		government "Independent (Old Era)"
+		personality
+			confusion 40
+			timid frugal escort launching
+		ship "Scout (*)" "Hatchling"
+		fleet
+			names "civilian"
+			variant
+				"Shuttle (*)" 4
+				"Hauler (*)" 2
+				"Hauler II (*)" 3
+				"Hauler III (Tanker)"
+	npc 
+		government "Merchant"
+		personality
+			confusion 30
+			heroic escort launching
+		fleet
+			names "civilian"
+			variant
+				"Berserker" 3
+	npc
+		government "Pirate"
+		personality
+			confusion 15
+			coward opportunistic staying
+		ship "Frigate (*)" "Seven Steel Nails"
+		system destination
+		fleet
+			names "bounty hunter"
+			variant
+				"Aerie (*)"
+				"Dagger (*)" 2
+	npc
+		government "Pirate"
+		personality
+			confusion 20
+			coward opportunistic
+		ship "Leviathan (*)" "Wanton Destruction"
+		system destination
+		fleet
+			names "pirate"
+			variant
+				"Berserker (*)" 4
+			variant
+				"Leviathan (*)"
+			variant
+				"Frigate (*)" 2
+	on offer
+		event "Wei colonized"
+		conversation
+			`	An ad on a bulletin board near your landing pad catches your attention. It is asking for "civilian volunteers" to help escort a colonizing fleet to <planet>. The associated payment is quite munificent, but you can't help thinking that this mission is going to be very risky.`
+			choice
+				`	(Volunteer as an escort.)`
+				`	(Ignore the advertisement.)`
+					decline
+			`	After a couple minutes of wandering around, you meet up with several merchant captains with interceptors and light warships who have volunteered them for the mission. Together, you manage to hunt down the colonist convoy, which is just getting ready to leave. There doesn't appear to be any other form of escort, and some of the captains that had been eager to volunteer walk off when they realize just how high-risk the mission is.`
+				`	(Walk away.)`
+					decline
+				`	(Accept the mission.)`
+			`	You stay, along with a couple of other captains, ready to accept the mission despite the risk. After preparing your ship, you launch with the convoy.`
+				launch
+	on visit
+		dialog "You have arrived at <destination>, but you have left the colonists behind!"
+	on fail
+		dialog "You have failed to escort all the colonists safely to <destination>....."
+		"reputation: Independent (Old Era)" <?= 1
+	on complete
+		payment 240000
+		dialog "You arrive at <destination> with the colonist convoy, and wish the colonists good luck. They pay you <payment> in return."
+		"reputation: Independent (Old Era)" >?= 3
+		"reputation: Green Belt" >?= 1
+		"colony missions complete" >?= 1
+
+# Early colony missions: Cornucopia (I) √, Follower (DF) √, Deep-*Special chain* (-), Haze (DF) √, Geminus (TU) √, Hope-*High risk* (I) √, Bivrost (DF) √
 
 # Far south colony missions (Offered from Cornucopia, requires either Hope or Deep mission) (I): Poisonwood, Lichen, Solace
 
