@@ -223,7 +223,7 @@ mission "Colonist escort [Geminus]"
 	to offer
 		random < 80
 		not "event: Castor colonized"
-	source "Midgard"
+	source "Luna"
 	destination "Geminus"
 	npc accompany save
 		government "Terran Union"
@@ -239,7 +239,7 @@ mission "Colonist escort [Geminus]"
 				"Hauler III (*)" 2
 				"Hauler II (*)"
 	npc
-		government "Deep Federation"
+		government "Terran Union"
 		personality
 			confusion 10
 			heroic opportunistic escort launching
@@ -284,7 +284,7 @@ mission "Colonist escort [Bivrost]"
 		random < 80
 		not "event: Markeb colonized"
 	source "Asgard"
-	destination "Haze"
+	destination "Bivrost"
 	npc accompany save
 		government "Deep Federation"
 		personality
@@ -335,7 +335,7 @@ mission "Colonist escort [Bivrost]"
 		"colony missions complete" >?= 1
 
 mission "Investigate Deep"
-	description "Investigate <stopover> and return to <planet> for payment."
+	description "Investigate <stopovers> and return to <planet> for payment."
 	to offer
 		random < 40
 		"colony missions complete" > 0
