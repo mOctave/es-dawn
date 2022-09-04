@@ -24,6 +24,8 @@ mission "Dawn Intro 0"
 	cargo "paperwork" 5
 	source "Earth"
 	destination "Valhalla"
+	to offer
+		not "Intro [0]: offered"
 	on offer
 		"salary: Terran Union" = 100
 		log "Space History" "1957 October 4" "Launch of Sputnik, the first human-made satellite to orbit Earth."

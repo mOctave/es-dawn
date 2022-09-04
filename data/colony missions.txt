@@ -245,7 +245,7 @@ mission "Colonist escort [Geminus]"
 			heroic opportunistic escort launching
 		ship "Frigate (*)" "T.U.S. Ecuador"
 		fleet
-			names "terran union small"
+			names "terran small"
 			variant
 				"Gunboat (*)" 2
 				"Rainmaker (*)"
