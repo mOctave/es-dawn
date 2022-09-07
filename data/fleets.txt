@@ -52,6 +52,8 @@ fleet "Small Old Era Merchants"
 		"Hauler (*)"
 	variant 20
 		"Shuttle (*)" 2
+	variant 20
+		"Flivver (*)"
 	variant 15
 		"Hauler (*)" 2
 	variant 15
@@ -65,6 +67,8 @@ fleet "Small Old Era Merchants"
 	variant 3
 		"Shuttle (*)" 3
 		"Berserker (*)" 2
+	variant 2
+		"Hauler III (*)"
 	variant 1
 		"Hauler II (*)" 2
 		"Berserker (*)" 3
@@ -98,26 +102,25 @@ fleet "Large Old Era Merchants"
 		"Hauler III (*)" 2
 		"Gunboat (*)"
 	variant 10
-		"Hauler (*)" 4
-		"Hauler II (*)" 2
-		"Berserker (*)" 4
-		"Gunboat (*)"
-		"Rainmaker (*)"
+		"Hauler (*)" 2
+		"Hauler III (Tanker)"
+		"Hauler II (*)"
 	variant 10
 		"Hauler III (*)" 2
 		"Mule (*)"
 	variant 10
-		"Shuttle (*)" 5
-		"Flivver (*)" 2
-		"Berserker (*)" 3
+		"Shuttle (*)" 3
+		"Flivver (*)"
+		"Berserker (*)" 2
 	variant 5
 		"Star Queen (*)" 2
-		"Gunboat (*)" 3
+		"Gunboat (*)" 2
 	variant 3
 		"Mule (*)" 2
 	variant 2
-		"Star Queen (*)" 4
-		"Gunboat (*)" 5
+		"Shuttle (*)"
+		"Star Queen (*)" 2
+		"Gunboat (*)" 3
 		"Berserker (*)" 2
 		"Rainmaker (*)"
 
@@ -146,9 +149,9 @@ fleet "Small Terran Union"
 		"Gunboat (*)"
 		"Berserker (*)" 3
 	variant 1
-		"Gunboat (*)" 2
-		"Rainmaker (*)" 3
-		"Berserker (*)" 4
+		"Gunboat (*)"
+		"Rainmaker (*)" 2
+		"Berserker (*)" 3
 		"Firebird (*)"
 
 fleet "Large Terran Union"
@@ -160,9 +163,9 @@ fleet "Large Terran Union"
 		confusion 15
 		heroic opportunistic surveillance
 	variant 10
-		"Frigate (*)" 2
+		"Frigate (*)"
 	variant 10
-		"Firebird (*)" 3
+		"Firebird (*)" 2
 	variant 9
 		"Aerie (*)"
 		"Dagger (*)" 2
@@ -171,26 +174,28 @@ fleet "Large Terran Union"
 		"Lance (*)" 2
 		"Rainmaker (*)"
 	variant 6
-		"Mule (*)" 3
+		"Mule (*)" 2
 		"Firebird (*)"
 	variant 4
-		"Frigate (*)" 3
+		"Frigate (*)" 2
 		"Aerie (*)"
 		"Lance (*)" 2
 	variant 2
 		"Frigate (*)"
-		"Gunboat (*)" 3
+		"Gunboat (*)" 2
 		"Firebird (*)"
 	variant 1
-		"Mule (*)"
 		"Aerie (*)" 3
 		"Dagger (*)" 2
 		"Lance (*)" 4
 		"Rainmaker (*)" 2
 		"Firebird (*)"
 	variant 1
-		"Firebird (*)" 3
-		"Berserker (*)" 3
+		"Firebird (*)" 2
+		"Berserker (*)" 2
+	variant 4
+		"Mule (*)"
+		"Berserker (*)" 2
 	variant 3
 		"Leviathan (*)"
 	variant 2
@@ -200,6 +205,8 @@ fleet "Large Terran Union"
 		"Leviathan (*)"
 		"Frigate (*)" 2
 		"Firebird (*)"
+	variant 1
+		"Berserker (*)" 5
 
 fleet "Independent Patrols"
 	government "Independent"
@@ -212,10 +219,10 @@ fleet "Independent Patrols"
 	variant 10
 		"Frigate (*)"
 	variant 8
-		"Berserker (*)" 3
+		"Berserker (*)" 2
 	variant 6
 		"Gunboat (*)"
-		"Berserker (*)" 2
+		"Berserker (*)"
 	variant 5
 		"Mule (*)"
 		"Firebird (*)"
@@ -226,10 +233,9 @@ fleet "Independent Patrols"
 		"Gunboat (*)"
 		"Rainmaker (*)" 2
 	variant 2
-		"Frigate (*)"
-		"Gunboat (*)" 2
-		"Rainmaker (*)" 3
-		"Berserker (*)" 5
+		"Gunboat (*)"
+		"Rainmaker (*)" 2
+		"Berserker (*)" 3
 		"Firebird (*)"
 		"Aerie (*)"
 		"Dagger (*)" 2
@@ -263,7 +269,7 @@ fleet "Small Old Era Pirates"
 	variant 1
 		"Gunboat (*)"
 		"Rainmaker (*)" 2
-		"Berserker (*)" 4
+		"Berserker (*)"
 
 fleet "Large Old Era Pirates"
 	government "Pirate"
@@ -281,7 +287,7 @@ fleet "Large Old Era Pirates"
 		"Berserker (*)" 2
 	variant 6
 		"Gunboat (*)"
-		"Berserker (*)" 7
+		"Berserker (*)" 4
 	variant 5
 		"Aerie (*)" 3
 		"Dagger (*)" 4
@@ -291,9 +297,8 @@ fleet "Large Old Era Pirates"
 		"Gunboat (*)"
 	variant 3
 		"Firebird (*)"
-		"Gunboat (*)" 4
+		"Gunboat (*)" 3
 	variant 2
-		"Firebird (*)"
 		"Frigate (*)"
 		"Mule (*)"
 		"Aerie (*)"
@@ -301,10 +306,10 @@ fleet "Large Old Era Pirates"
 		"Lance (*)"
 	variant 1
 		"Frigate (*)"
-		"Firebird (*)" 2
-		"Gunboat (*)" 3
-		"Rainmaker (*)" 2
-		"Berserker (*)" 3
+		"Firebird (*)"
+		"Gunboat (*)" 2
+		"Rainmaker (*)"
+		"Berserker (*)" 2
 
 fleet "Old Era Pirate Raid"
 	government "Pirate"
@@ -325,14 +330,14 @@ fleet "Old Era Pirate Raid"
 		"Berserker (*)" 9
 	variant 1
 		"Mule (*)"
-		"Rainmaker (*)" 5
+		"Rainmaker (*)" 4
 	variant 1
 		"Mule (*)"
-		"Frigate (*)" 3
+		"Frigate (*)" 2
 		"Firebird (*)" 2
-		"Gunboat (*)" 4
-		"Rainmaker (*)" 6
-		"Berserker (*)" 8
+		"Gunboat (*)" 3
+		"Rainmaker (*)" 4
+		"Berserker (*)" 6
 		"Aerie (*)" 2
 		"Dagger (*)" 4
 
@@ -369,8 +374,8 @@ fleet "Deep Federation"
 	variant 1
 		"Bactrian (*)" 2
 		"Dagger (*)" 6
-		"Firebird (*)" 2
-		"Rainmaker (*)"
+		"Firebird (*)"
+		"Rainmaker (*)" 2
 
 fleet "Green Belt"
 	government "Green Belt"
@@ -449,20 +454,20 @@ fleet "Green Belt"
 	variant 1
 		"Gunboat (*)"
 		"Rainmaker (*)" 2
-		"Berserker (*)" 6
+		"Berserker (*)" 3
 	variant 1
 		"Leviathan (*)" 2
-		"Berserker (*)" 4
+		"Berserker (*)" 2
 	variant 1
 		"Aerie (*)"
 		"Dagger (*)"
 		"Lance (*)"
 		"Gunboat (*)" 2
-		"Rainmaker (*)" 3
+		"Rainmaker (*)"
 		"Berserker (*)" 4
 	variant 1
 		"Mule (*)"
-		"Berserker (*)" 7
+		"Berserker (*)" 3
 	variant 1
 		"Aerie (*)" 4
 		"Dagger (*)" 4

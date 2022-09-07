@@ -94,3 +94,108 @@ ship "Hauler II (Slightly Modified)"
 	explode "huge explosion" 5
 	"final explode" "final explosion large"
 	description "Don't even ask..."
+
+person "mOctave"
+	frequency 200
+	government "Author"
+	ship "Eagle"
+	personality
+		heroic opportunistic swarming
+	phrase
+		"Contribute to es-dawn on GitHub!"
+		"Found a bug? Report it!"
+		"I hope you're enjoying the alternate storyline."
+		"Request features on GitHub!"
+		"More ship designs wanted!"
+	phrase
+		"To say I've only visited fifty stars would be a bald-faced lie."
+		"Wow! Someone actually reads these things!"
+		"Everyone always argues about the merits of the Falcon compared with the Leviathan. This should please everyone!"
+		"I wonder what would happen if I crossed a Wardragon, a Kestrel, a Bactrian, and the Emerald Sword..."
+		"What happens if I push the red button?"
+		"Loading yourself with four different kinds of ammunition is definitely a good idea."
+		"I'm still waiting for the Navy to build a Battleship. I'll probably be waiting a while."
+		"Sell a man some fuel and he'll be able to travel for a day. Sell a man a catalytic ramscoop and you lose a customer."
+		"I tried installing some of those Drak weapons, but they needed more energy to run than the ship had. I opted for a flamethrower."
+		"An eagle is just a big falcon, right? And the name Peregrine was already taken."
+		"All the good quotes have already been taken..."
+		"Leviathan rises from the deep, and the falcon swoops down from above..."
+		"Ever wonder where the Archons come from?"
+
+ship "Eagle"
+	sprite "ship/eagle"
+	attributes
+		category "Heavy Warship"
+		"cost" 14990000
+		"shields" 13600
+		"hull" 4700
+		"required crew" 48
+		"bunks" 69
+		"mass" 495
+		"drag" 7.7
+		"heat dissipation" .6
+		"fuel capacity" 500
+		"cargo space" 20
+		"outfit space" 730
+		"weapon capacity" 390
+		"engine capacity" 135
+		weapon
+			"blast radius" 120
+			"shield damage" 1200
+			"hull damage" 600
+			"hit force" 1800
+	outfits
+		"Thunderhead Launcher"
+		"Hai Tracker Pod"
+		"Typhoon Launcher"
+		"Flamethrower"
+		"Point Defense Turret"
+		"Korath Disrupter"
+		"Plasma Turret"
+		"Sunbeam Turret"
+		"Electron Turret"
+
+		"Thunderhead Missile" 40
+		"Hai Tracker" 56
+		"Typhoon Torpedo" 30
+
+		"Antimatter Core"
+		"Systems Core (Large)"
+		"Research Laboratory"
+		"Scanning Module"
+		"Catalytic Ramscoop"
+		"Liquid Helium Cooler"
+
+		"Medium Graviton Thruster"
+		"Medium Graviton Steering"
+		"Jump Drive"
+
+		"Enforcer Riot Staff" 6
+		"Pulse Rifle" 7
+		"Laser Rifle" 10
+
+	gun 36 -27 "Thunderhead Launcher"
+	gun 48 -15 "Hai Tracker Pod"
+	gun -18 -85.5 "Typhoon Launcher"
+	gun -49.5 5 "Flamethrower"
+	turret 37.5 72 "Point Defense Turret"
+	turret -19.5 102 "Korath Disrupter"
+	turret -51.5 40 "Plasma Turret"
+	turret 24 19.5 "Sunbeam Turret"
+	turret -40.5 21.5 "Electron Turret"
+	engine -19 143.5
+	engine 21.5 144
+	leak "leak" 10 50
+	leak "flame" 10 80
+	leak "big leak" 10 30
+	explode "tiny explosion" 10
+	explode "small explosion" 5
+	explode "medium explosion" 5
+	explode "large explosion" 10
+	explode "huge explosion" 20
+	explode "nuke explosion" 10
+	"final explode" "final explosion large"
+	description "First, you cut a Leviathan in half. Then, you cut a Falcon in half. Then, you convert all the cargo space to weapon space and mount turrets all over the place."
+
+shipyard "All Ships"
+	"Eagle"
