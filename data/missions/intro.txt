@@ -57,6 +57,7 @@ mission "Dawn Intro 1"
 	name "Passengers to <planet>"
 	description "Deliver eight passengers to <destination> where they will attend a technology conference."
 	blocked `You find the government official you're looking for, who tells you that they need a job done, but that you will need <capacity> before you can take it.`
+	priority
 	source "Valhalla"
 	destination "Prime"
 	passengers 8
@@ -98,6 +99,7 @@ mission "Dawn Intro 2"
 	name "Take notes on new ship design"
 	description "Travel to the Mintaka system, disable the ship you find there and return to <destination> with notes on the experience for <payment>."
 	landing
+	priority
 	source Prime
 	waypoint Mintaka
 	npc disable

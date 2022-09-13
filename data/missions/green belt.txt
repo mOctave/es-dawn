@@ -81,6 +81,7 @@ mission "Green Belt A 0"
 	to offer
 		random < 40
 		has "Dawn Intro 0: done"
+		not "East Pirate War 0: done"
 		"combat rating" > 7
 	on offer
 		log "Factions" "Green Belt" `The Green Belt Initiative is a movement to try to bring peace to the region of space often called the Dirt Belt. The Dirt Belt is such a resource-rich region that it ought to be among the richest in human space, but instead many people are struggling to get by, and still others cannot get by at all.`
@@ -133,6 +134,7 @@ mission "Green Belt A 0"
 mission "Green Belt A 1"
 	name "Return with GBI to <planet>"
 	description "Return with the Green Belt Intiative ships to <destination> to stock up on supplies again."
+	priority
 	source Tundra
 	destination "New Boston"
 	npc accompany save
@@ -189,6 +191,7 @@ mission "Green Belt A 2"
 	description "Escort members of the Green Belt Initiative to <destination>, to see if they can get them on board for making responsible government a real thing around here."
 	clearance `You talk to the spaceport, and, again, when they find that you are with the Green Belt Initiative, they let you land without payment.`
 	landing
+	priority
 	source "New Boston"
 	destination "New Iceland"
 	npc accompany save
@@ -265,6 +268,7 @@ mission "Green Belt A 2"
 mission "Green Belt A 3"
 	name "Announce New Government"
 	description "Fly through <waypoints>, proclaiming the creation of the Green Belt as a star nation, then return to <destination> to receive <payment>."
+	priority
 	source "New Iceland"
 	destination "New Greenland"
 	waypoint "Kaus Borealis"
@@ -304,7 +308,7 @@ mission "Green Belt A 3"
 				"Dagger (*)" 3
 				"Lance (*)"
 	to offer
-		has "Green Belt A 1: done"
+		has "Green Belt A 2: done"
 	on offer
 		conversation
 			`	"Kaus Borealis has agreed to join!" exclaims Beatrix. "And that means, <first>, that we have a job for you. Are you willing to fly through <waypoints> proclaiming the establishment of the Green Belt as its own nation? You would then land on <planet> for payment."`

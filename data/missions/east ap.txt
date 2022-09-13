@@ -1,0 +1,92 @@
+# ------------------------------------------------------------------------- #
+#	es-dawn: A plugin for endless sky providing an alternate, and much
+#	earlier, storyline.
+#	Copyright © 2022 mOctave
+# ------------------------------------------------------------------------- #
+#	This program is free software: you can redistribute it and/or modify
+#	it under the terms of the GNU General Public License as published by
+#	the Free Software Foundation, either version 3 of the License, or
+#	(at your option) any later version.
+# ------------------------------------------------------------------------- #
+#	This program is distributed in the hope that it will be useful,
+#	but WITHOUT ANY WARRANTY; without even the implied warranty of
+#	MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+#	GNU General Public License for more details.
+# ------------------------------------------------------------------------- #
+#	You should have received a copy of the GNU General Public License
+#	along with this program.  If not, see <https://www.gnu.org/licenses/>.
+# ------------------------------------------------------------------------- #
+
+mission "East Pirate Patrol 0"
+	name "Patrol for pirates"
+	description "Fly through <waypoints> and return to <destination> with logs of pirate activity."
+	minor
+	source
+		government "Terran Union" "Independent"
+		near "Aldebaran" 1 4
+	destination "Earth"
+	waypoint "Capella"
+	waypoint "Kursa"
+	waypoint "Acamar"
+	waypoint "Phact"
+	npc
+		government "Pirate"
+		system "Kursa"
+		personality
+			plunders harvests staying
+			confusion 20
+		fleet
+			names "pirate"
+			variant
+				"Mule (*)"
+				"Rainmaker (*)" 2
+				"Berserker (*)" 5
+	to offer
+		random < 30
+		has "Dawn Intro 0: done"
+	on offer
+		conversation
+			`	As you are sitting at the spaceport bar, you receive a video call from someone claiming to be the Terran Union government. Although you don't recognize the caller's name (they claim to be a "Rear Admiral Pentacle"), they may very well be a member of the government.`
+			choice
+				`	(Answer the call.)`
+				`	(Ignore it.)`
+					goto ignore
+			`	An face appears in front of you. With a start, you notice the insigna of a rear admiral. "Captain <last>?" the face asks, "This is Rear Admiral Pentacle. We recognize that so far you have not been given any serious work by the Terran Union, and are ready to give you a task to perform."`
+			choice
+				`	"What kind of task?"`
+				`	"How do I know you are who you say you are?"`
+					goto mistrust
+				`	(Hang up.)`
+					goto ignore
+			`	"We've been hearing reports of large amounts of pirate activity recently near Aldebaran, and would like you to go and scout out a few systems for us. No need to engage in combat, of course: if you see a pirate vessel, log it and move on. Once you're done, return to Earth where we'll analyze your logs. We don't expect that you'll run into any trouble."`
+			choice
+				`	"All right. I'll get going then."`
+				`	"I'm starting to worry that you don't really work for the government."`
+					goto mistrust
+			`	"Glad to hear it. Good luck!" The rear admiral doesn't add "You're going to need it," but it is certainly implied. You wonder what you've gotten yourself into.`
+				accept
+			label mistrust
+			`	"A bit paranoid, are we? I do, in fact, work for the Navy, but I can see how you might not believe me. I'll send Commander Wayne over to meet with you in person." The rear admiral hangs up.`
+			label ignore
+			`	As you walk out into the sunlight a few minutes later, you are met by two soldiers and what looks like a very grumpy cat burgler. "I am Commander Wayne," the cat burgler says. "Rear Admiral Pentacle sent me to speak to you. It appears that you don't trust him. I have been sent to convince you to accept the tasks the Terran Union places before you." You start to sweat, worried that this "convincing" might involve soldiers with very well-maintained laser rifles. "Here is my ID. Scan it. I do indeed work for the government, as does the rear admiral. You will now fly through <waypoints>, and return to Earth with your logs. Understood?"`
+			choice
+				`	"Yes, sir!"`
+				`	(Call for help.)`
+					goto help
+			label good
+			`	"Good. Now go."`
+				accept
+			label help
+			`	No one seems to hear your cry for help. In fact, everyone appears to be steering well clear of you. One of the soldiers appears mildly amused. Commander Wayne does not. "We are the government. It is demonstrated by my ID, and the fact that no one has arrested the marines yet. If you continue in this ridiculous vein, you will be charged with dereliction of duty, and I shall personally see to it that you never fly again. Understood?"`
+			choice
+				`	"Yes, sir, I'l do the job."`
+					goto good
+				`	"No. I refuse to be treated like this! Do you know who I am?"`
+			`	"Yes. You are Captain <first> <last>, charged with dereliction of duty under the Terran Union Naval Act Section 19 Article 234A. You are to face court martial." The soldiers haul you away. The charges stand, and you spend a month in prison before being released. You never even see your ship again.`
+				die
+	on complete
+		dialog "On Earth, you are met be Rear Admiral Pentacle in person, who thanks you for your contribution to society and asks you to meet him in the spaceport bar once you're available."
+
+#mission "East Pirate War 0"
+#	to offer
+#		not "Green Belt A 0: done"
