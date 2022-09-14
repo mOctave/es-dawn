@@ -87,6 +87,63 @@ mission "East Pirate Patrol 0"
 	on complete
 		dialog "On Earth, you are met be Rear Admiral Pentacle in person, who thanks you for your contribution to society and asks you to meet him in the spaceport bar once you're available."
 
+mission "East Pirate Patrol 1"
+	name "Patrol for pirates"
+	description "Fly through <waypoints> and return to <destination> with logs of pirate activity."
+	source "Earth"
+	destination "Earth"
+	waypoint "Alhena"
+	waypoint "Kursa"
+	waypoint "Wazn"
+	waypoint "Phact"
+	priority
+	npc
+		government "Pirate"
+		system "Wazn"
+		personality
+			plunders harvests staying
+			confusion 20
+		fleet
+			names "pirate"
+			variant
+				"Leviathan (*)"
+				"Mule (*)"
+				"Gunboat (*)" 2
+				"Rainmaker (*)"
+				"Berserker (*)" 5
+	npc
+		government "Terran Union"
+		personality
+			heroic launching escort
+			confusion 10
+		fleet
+			names "terran small"
+			variant
+				"Berserker (*)" 2
+	to offer
+		has "East Pirate Patrol 0: done"
+	on offer
+		conversation
+			`	Rear Admiral Pentacle seems slightly troubled when you meet up with him. "Pirates in Wazn," he mutters, "It looks like they're gathering an invasion fleet. Either that, or they knew you were coming and laid an ambush for you."`
+			choice
+				`	"How do you know the ambush was for me?"`
+				`	"An invasion fleet?"`
+					goto fleet
+			`	"We don't," he says, slightly louder, "In fact, I don't really believe they were laying an ambush at all. No, this looks more like an invasion fleet."`
+			choice
+				`	"An invasion fleet?"`
+					goto fleet
+				`	"They could just have been a patrol."`
+			`	"That's not likely either. Your logs show them being scattered all over the place, and you didn't pick up any trace of that group anywhere else. They were waiting there, well away from any trade route. They could have been attempting to rob a convoy headed between Alhena and Elnath, but there's much better money to be made elsewhere."`
+			label fleet
+			`	"It looks like an invasion fleet to me, that's for sure. And since I, for my sins, am in charge of security in that sector, I have to deal with it. First off, we'll need to take a closer look at those systems. I'm not sending you out alone again, though. You'll be accompanied by a couple of Berserkers."`
+			choice
+				`	"Alright, I'll go out again."`
+			`	"Rear Admiral Pentacle leads you out to where two Berserkers are parked. You talk with their captains, then head back to your ship to prepare it for another patrol."`
+				accept
+	on complete
+		dialog `When you return to Earth, Rear Admiral Pentacle seems grim. "They're going to attack Alhena. We have to stop them before they get the fleet into the system. We'll meet on Relic for a council of war as soon as possible."`
+
 #mission "East Pirate War 0"
 #	to offer
 #		not "Green Belt A 0: done"
