@@ -81,7 +81,7 @@ mission "Green Belt A 0"
 	to offer
 		random < 40
 		has "Dawn Intro 0: done"
-		not "East Pirate War 0: done"
+		not "East Pirate War 2: done"
 		"combat rating" > 7
 	on offer
 		log "Factions" "Green Belt" `The Green Belt Initiative is a movement to try to bring peace to the region of space often called the Dirt Belt. The Dirt Belt is such a resource-rich region that it ought to be among the richest in human space, but instead many people are struggling to get by, and still others cannot get by at all.`

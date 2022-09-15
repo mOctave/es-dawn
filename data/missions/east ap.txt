@@ -142,8 +142,100 @@ mission "East Pirate Patrol 1"
 			`	"Rear Admiral Pentacle leads you out to where two Berserkers are parked. You talk with their captains, then head back to your ship to prepare it for another patrol."`
 				accept
 	on complete
-		dialog `When you return to Earth, Rear Admiral Pentacle seems grim. "They're going to attack Alhena. We have to stop them before they get the fleet into the system. We'll meet on Relic for a council of war as soon as possible."`
+		dialog `When you return to Earth, Rear Admiral Pentacle seems grim. "They're going to attack Alhena. We have to stop them before they capture the system. We'll meet on Relic for a council of war as soon as possible."`
 
-#mission "East Pirate War 0"
+mission "East Pirate War 0"
+	name "Defend Alhena"
+	description "Defend Alhena from pirate invasion."
+	landing
+	priority
+	source "Relic"
+	destination "Mainsail"
+	npc kill
+		government "Pirate"
+		system "Alhena"
+		personality
+			plunders harvests staying target waiting
+			confusion 20
+		fleet
+			names "pirate"
+			variant
+				"Rainmaker (*)"
+				"Berserker (*)" 3
+	npc kill
+		government "Pirate"
+		system "Alhena"
+		personality
+			plunders harvests staying target entering waiting
+			confusion 20
+		fleet
+			names "pirate"
+			variant
+				"Leviathan (*)"
+				"Mule (*)"
+				"Frigate (*)"
+				"Gunboat (*)"
+				"Rainmaker (*)"
+				"Berserker (*)" 4
+				"Aerie (*)"
+				"Lance (*)"
+				"Dagger (*)"
+	npc
+		government "Independent (Old Era)"
+		system "Alhena"
+		personality
+			heroic opportunistic vindictive launching staying waiting
+			confusion 10
+		fleet
+			names "militia"
+			fighters "militia"
+			variant
+				"Gunboat (*)"
+				"Rainmaker (*)"
+				"Berserker (*)" 2
+	npc
+		government "Terran Union"
+		personality
+			heroic opportunistic launching
+			confusion 10
+		fleet
+			names "terran capital"
+			fighters "terran fighter"
+			variant
+				"Frigate (*)" 2
+				"Aerie (*)"
+				"Lance (*)" 2
+				"Gunboat (*)" 3
+				"Rainmaker (*)" 2
+				"Berserker (*)" 2
+	to offer
+		has "East Pirate Patrol 1: done"
+	on offer
+		"salary: Terran Union" = 200
+		conversation
+			`	When you land on Relic, you find Admiral Pentacle already there. "The defense fleet is just about ready to move out. Are you ready to go?" he asks.`
+			choice
+				`	"Sure, I'm ready to go."`
+					goto ready
+				`	"I'm sorry, but my ship isn't a warship. I don't think I can do this."`
+					goto warship
+				`	"Wait, what about the council of war?"`
+			`	"You missed it. It turns out my fears have been confirmed. The lead elements of the pirate fleet has just entered the Alhena system, and they have wiped out most of the system's defense fleet. The few ships that remain are waiting until we arrive to sortie."`
+			choice
+				`	"Okay, I'll get my ship ready."`
+					goto ready
+				`	"I'd love to help, but I'm afraid my ship just isn't designed for that kind of thing."`
+			label warship
+			`	"I completely understand," Rear Admiral Pentacle says, "You've done a fine job so far and we'll be in contact if we need you again. I'll see to it that you get a raise for your work, as well."`
+				decline
+			label ready
+			`	"Glad to hear it. You're the last person we were waiting for. We'll depart in -" he checks his watch "- five minutes."`
+				launch
+	on complete
+		conversation
+			`	Admiral Pentacle greets you when you land. He looks like he's just had his ship explode on him, and it strikes you that that may well be possible, based on the ferocity of the battle. "That was a hard battle," he says, "But we may have to fight another one soon. High Command has decided that we must go to war against Aldebaran for this."`
+
+#mission "East Pirate War 1"
 #	to offer
 #		not "Green Belt A 0: done"
+#		has "East Pirate War 0: done"
