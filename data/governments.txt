@@ -27,7 +27,7 @@ government "Terran Union"
 	"attitude toward"
 		"Deep Federation" .1
 		"Merchant" .25
-		"Independent" .01
+		"Independent (Old Era)" .01
 		"Pirate" -.3
 		"Betelgeuse" .1
 		"Green Belt" .15
@@ -45,7 +45,7 @@ government "Deep Federation"
 	"attitude toward"
 		"Terran Union" .15
 		"Merchant" .3
-		"Independent" .05
+		"Independent (Old Era)" .05
 		"Pirate" -.35
 		"Betelgeuse" .15
 		"Green Belt" .1
@@ -61,7 +61,7 @@ government "Betelgeuse"
 	"attitude toward"
 		"Terran Union" .12
 		"Merchant" .3
-		"Independent" .05
+		"Independent (Old Era)" .05
 		"Pirate" -.35
 		"Deep Federation" .2
 		"Green Belt" .01
@@ -75,7 +75,7 @@ government "Green Belt"
 	"attitude toward"
 		"Terran Union" .2
 		"Merchant" .35
-		"Independent" .1
+		"Independent (Old Era)" .1
 		"Pirate" -.4
 		"Deep Federation" .01
 		"Betelgeuse" .01
@@ -99,6 +99,13 @@ government "Independent (Old Era)"
 	color .78 .36 .36
 	
 	"player reputation" 10
+	"attitude toward"
+		"Terran Union" .01
+		"Merchant" .1
+		"Pirate" -.5
+		"Green Belt" .08
+		"Deep Federation" .01
+		"Betelgeuse" .01
 	"bribe" .05
 	"friendly hail" "friendly civilian"
 	"hostile hail" "hostile civilian"
