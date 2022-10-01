@@ -1,0 +1,49 @@
+Format: https://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
+Upstream-Name: es-dawn
+Upstream-Contact: mOctave
+Source: https://github.com/mOctave/es-dawn/
+
+Files: *
+Copyright: mOctave
+License: GPL-3+
+
+Files: images/*
+Copyright: mOctave
+License: CC-BY-SA-4.0
+
+Files:
+ images/outfit/license-dfcs*
+Copyright: mOctave
+License: CC-BY-SA-4.0
+Comment: Derived from works by Saugia and Michael Zahniser (under the same license).
+
+Files:
+ images/outfit/license-tu*
+Copyright: mOctave
+License: CC-BY-SA-4.0
+Comment: Derived from works by Gefüllte Taubenbrust and Michael Zahniser (under the same license).
+
+Files:
+ images/projectile/comet*
+Copyright: mOctave
+License: CC-BY-SA-4.0
+Comment: Engine flare derived from works by Michael Zahniser (under the same license).
+
+Files:
+ images/scene/nasa0*
+Copyright: NASA
+License: public-domain
+ From NASA, and therefore in the public domain because they were created by
+ government employees while doing work for the government.
+
+Files:
+ images/scene/nasa-cropped*
+Copyright: mOctave
+License: public-domain
+Comment: Copied from images/scene/nasa0 and cropped.
+
+Files:
+ images/ship/eagle*
+Copyright: mOctave
+License: CC-BY-SA-4.0
+Comment: Derived from works by Michael Zahnister and detailed by Anarchist2 and Becca Tommaso.
