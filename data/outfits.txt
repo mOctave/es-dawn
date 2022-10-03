@@ -172,13 +172,13 @@
 # Completely new outfits...
 
 outfit "Terran Union License (*)"
-	category "Special"
-	cost 2800000
+	category "Licenses"
+	cost 6800000
 	thumbnail "outfit/license-tu"
 	description "The Terran Union License is a way of restricting the sale of powerful naval warships like the Frigate to trustworthy individuals. Although you can buy one instead of meeting the other qualifications, the price of a Terran Union License is so great that most people opt for alternatives to the Frigate instead."
 
 outfit "Deep Federation City-Ship License (*)"
-	category "Special"
+	category "Licenses"
 	thumbnail "outfit/license-dfcs"
 	description "The Deep Federation carefully controls the purchase of large city ships like the Bactrian, lest one of them fall into the hands of pirates. (*)"
 
